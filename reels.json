@@ -1,600 +1,150 @@
 [
   {
-    "id": "auto-reel-001",
+    "id": "reel-eng-run-company",
     "genre": "english",
-    "subject": "英語多義語",
-    "tags": ["多義語", "run", "初級"],
-    "question": "「run a company」の意味は？",
+    "subject": "英語・多義語",
+    "tags": ["高校英語", "単語記憶", "共通テスト"],
+    "question": "「run a company」の正確な意味は？",
     "answer": "会社を経営する",
-    "onePointMemo": "走らせる＝機械や組織を動かす＝経営する",
+    "onePointMemo": "run＝「連続してスムーズに流す・動かす」が原義",
+    "persona": "witty_senior",
+    "hook_type": "counter_intuition",
+    "visual_skin": "pop_pastel",
+    "bgm_genre": "trap_energy",
     "explanation": {
-      "title": "走るだけじゃない！",
-      "summaryPoint": "runのコアイメージは「スムーズに動かす」",
+      "title": "runの本質",
+      "summaryPoint": "スムーズに動かし続ける",
       "scenes": [
         {
-          "speaker": "female",
+          "speaker": "male",
           "type": "text_strike",
-          "narration": "runって走るでしょ？会社を走るってどういうこと？",
-          "tts_text": "らんって、はしるでしょ？かいしゃをはしるって、どういうこと？",
-          "subtitle": "会社を【走る】って何！？",
-          "emphasisWord": "run"
+          "subtitle": "走るじゃない！？",
+          "narration": "ラン・ア・カンパニーを『会社へ走る』って訳してない？実は全然違います！",
+          "emphasisWord": "走るじゃない",
+          "params": {
+            "wrongText": "会社へ走る",
+            "correctText": "会社を経営"
+          }
+        },
+        {
+          "speaker": "female",
+          "type": "dynamic_metaphor",
+          "subtitle": "核は「スムーズ」",
+          "narration": "runの本質は『止まらずスムーズに流す』こと。水も事業も流して動かすイメージ！",
+          "emphasisWord": "スムーズに流す",
+          "params": {
+            "conceptTitle": "runのイメージ派生",
+            "elements": [
+              { "x": 80, "y": 70, "shape": "circle", "label": "流れ", "sublabel": "連続移動", "fill": "#0369a1", "stroke": "#38bdf8" },
+              { "x": 260, "y": 70, "shape": "rect", "label": "経営", "sublabel": "事業運用", "fill": "#047857", "stroke": "#34d399" }
+            ],
+            "connectors": [
+              { "from": [80, 70], "to": [260, 70], "style": "laser", "color": "#38bdf8", "label": "拡張" }
+            ]
+          }
         },
         {
           "speaker": "male",
-          "type": "dynamic_metaphor",
-          "narration": "ブッブー！runのコアイメージは『スムーズに動かす』！だから会社をスムーズに動かす＝経営する、になるんだよ！",
-          "tts_text": "ぶっぶー！らんの、こあいめーじは、すむーずにうごかす！だから、かいしゃをすむーずにうごかす、けいえいする、になるんだよ！",
-          "subtitle": "スムーズに動かす＝【経営する】"
+          "type": "scale_of_justice",
+          "subtitle": "経営が圧倒的正解",
+          "narration": "だから会社という組織を滞りなく動かす＝『経営する』という意味になるんだ！",
+          "emphasisWord": "経営する",
+          "params": {
+            "topic": "訳の重み比較",
+            "leftTitle": "足で走る",
+            "leftWeight": 20,
+            "rightTitle": "組織を回す",
+            "rightWeight": 80,
+            "balanceState": "right_heavy",
+            "takeaway": "run＝連続して動かす"
+          }
+        },
+        {
+          "speaker": "female",
+          "type": "quiz_choice",
+          "subtitle": "一撃で解け！",
+          "narration": "さあ、run a business の意味はどっち？一瞬で答えよう！",
+          "emphasisWord": "事業を経営する",
+          "params": {
+            "questionText": "「run a business」の意味は？",
+            "correctChoice": "事業を経営する",
+            "choices": ["事業を経営する", "店まで走る", "事業を逃走させる"]
+          }
         }
       ]
     }
   },
   {
-    "id": "auto-reel-002",
-    "genre": "english",
-    "subject": "前置詞の直感イメージ",
-    "tags": ["前置詞", "on", "初級"],
-    "question": "「fly on the ceiling（天井のハエ）」なぜ under ではなく on？",
-    "answer": "onのイメージは「上に乗る」ではなく「接触」だから。",
-    "onePointMemo": "onは「ペタッとくっつく」スパイダーマン状態",
-    "explanation": {
-      "title": "onは「上」じゃない！",
-      "summaryPoint": "on＝面への接触",
-      "scenes": [
-        {
-          "speaker": "female",
-          "type": "text_strike",
-          "narration": "天井は上にあるのに、なんで under じゃなくて on なの？",
-          "tts_text": "てんじょうは、うえにあるのに、なんで、あんだー、じゃなくて、おん、なの？",
-          "subtitle": "天井は上にあるのに【on】？",
-          "emphasisWord": "on"
-        },
-        {
-          "speaker": "male",
-          "type": "dynamic_metaphor",
-          "narration": "onを『〜の上』って覚えるのは卒業！実は『面への接触』が正解。壁でも天井でもペタッとくっつけば on なんだ！",
-          "tts_text": "おんを、のうえ、っておぼえるのは、そつぎょう！じつは、めんへのせっしょく、がせいかい。かべでも、てんじょうでも、ぺたっとくっつけば、おん、なんだ！",
-          "subtitle": "ペタッとくっつく【接触のon】"
-        }
-      ]
-    }
-  },
-  {
-    "id": "auto-reel-003",
-    "genre": "english",
-    "subject": "TOEIC盲点語彙",
-    "tags": ["TOEIC", "accommodate", "中級"],
-    "question": "TOEIC頻出単語「accommodate」の意味は？",
-    "answer": "収容する、対応する",
-    "onePointMemo": "あ！コモドドラゴンを収容する",
-    "explanation": {
-      "title": "ホテル頻出単語！",
-      "summaryPoint": "語呂合わせで一撃暗記",
-      "scenes": [
-        {
-          "speaker": "female",
-          "type": "text_strike",
-          "narration": "アコモデイト...なんか長くて絶対覚えられないんだけど！",
-          "tts_text": "あこもでいと。なんかながくて、ぜったいおぼえられないんだけど！",
-          "subtitle": "長すぎて【覚えられない】！",
-          "emphasisWord": "accommodate"
-        },
-        {
-          "speaker": "male",
-          "type": "dynamic_metaphor",
-          "narration": "なら語呂合わせ！『あ！コモド（accommod）ドラゴンを収容する』で一発だよ！ホテルが客を収容するときによく出るね。",
-          "tts_text": "なら、ごろあわせ！あ、こもどどらごんをしゅうようする、で、いっぱつだよ！ほてるが、きゃくをしゅうようするときに、よくでるね。",
-          "subtitle": "あ！コモドドラゴンを【収容する】"
-        }
-      ]
-    }
-  },
-  {
-    "id": "auto-reel-004",
-    "genre": "english",
-    "subject": "前置詞の直感イメージ",
-    "tags": ["前置詞", "for", "中級"],
-    "question": "「leave for Tokyo」と「leave Tokyo」の違いは？",
-    "answer": "forがあると東京へ向かう、ないと東京を出発する。",
-    "onePointMemo": "forは矢印（→）。その目的地に向かうエネルギー！",
-    "explanation": {
-      "title": "forがあるだけで真逆！",
-      "summaryPoint": "for＝目的地に向かう矢印",
-      "scenes": [
-        {
-          "speaker": "female",
-          "type": "text_strike",
-          "narration": "どっちも東京に行くっぽくない？forなんて飾りでしょ？",
-          "tts_text": "どっちも、とうきょうにいくっぽくない？ふぉーなんて、かざりでしょ？",
-          "subtitle": "forなんて【ただの飾り】でしょ？",
-          "emphasisWord": "for"
-        },
-        {
-          "speaker": "male",
-          "type": "dynamic_metaphor",
-          "narration": "飾りじゃない！forは『向かっていく矢印』のイメージ。for Tokyoなら東京が目的地、leave Tokyoは東京を去るって真逆の意味になるよ！",
-          "tts_text": "かざりじゃない！ふぉーは、むかっていくやじるしのいめーじ。ふぉーとうきょう、なら、とうきょうがもくてきち。りーぶとうきょう、は、とうきょうをさる、ってまぎゃくのいみになるよ！",
-          "subtitle": "forは目的地への【矢印】！"
-        }
-      ]
-    }
-  },
-  {
-    "id": "auto-reel-005",
-    "genre": "english",
-    "subject": "英語多義語",
-    "tags": ["多義語", "stand", "中級"],
-    "question": "「I can't stand it.」の stand の意味は？",
-    "answer": "我慢する、耐える",
-    "onePointMemo": "重いものを背負って「立ち続ける」＝耐える",
-    "explanation": {
-      "title": "立つことができない？",
-      "summaryPoint": "立ち続けるには忍耐が必要",
-      "scenes": [
-        {
-          "speaker": "female",
-          "type": "text_strike",
-          "narration": "スタンドって立つでしょ？『私は立つことができない』って足がしびれたの？",
-          "tts_text": "すたんどって、たつでしょ？わたしはたつことができないって、あしがしびれたの？",
-          "subtitle": "立てないって【足がしびれた】の？",
-          "emphasisWord": "stand"
-        },
-        {
-          "speaker": "male",
-          "type": "dynamic_metaphor",
-          "narration": "惜しい！重い荷物を持ってずっと『立ち続ける』のを想像してみて。そこから転じて『我慢する』『耐える』って意味になるんだ！",
-          "tts_text": "おしい！おもいにもつをもって、ずっと、たちつづけるのを、そうぞうしてみて。そこからてんじて、がまんする、たえる、って、いみになるんだ！",
-          "subtitle": "立ち続ける＝【我慢する】"
-        }
-      ]
-    }
-  },
-  {
-    "id": "auto-reel-006",
-    "genre": "english",
-    "subject": "TOEIC盲点語彙",
-    "tags": ["TOEIC", "unanimously", "上級"],
-    "question": "TOEIC上級語彙「unanimously」の意味は？",
-    "answer": "満場一致で",
-    "onePointMemo": "ユー何者（unanimou）？と満場一致で怪しむ",
-    "explanation": {
-      "title": "会議のニュースで頻出！",
-      "summaryPoint": "みんなの意見が一つになること",
-      "scenes": [
-        {
-          "speaker": "female",
-          "type": "text_strike",
-          "narration": "ユナニマリー？こんなの日常で絶対使わないでしょ！",
-          "tts_text": "ゆなにまりー？こんなの、にちじょうでぜったいつかわないでしょ！",
-          "subtitle": "こんな単語【絶対使わない】！",
-          "emphasisWord": "unanimously"
-        },
-        {
-          "speaker": "male",
-          "type": "dynamic_metaphor",
-          "narration": "ビジネス会議で頻出だよ！語呂合わせで『ユー、何者（unanimou）？と満場一致で怪しむ』。全員の意見が一致することさ！",
-          "tts_text": "びじねすかいぎで、ひんしゅつだよ！ごろあわせで、ゆー、なにもの、と、まんじょういっちであやしむ。ぜんいんのいけんが、いっちすることさ！",
-          "subtitle": "ユー何者？と【満場一致で】怪しむ"
-        }
-      ]
-    }
-  },
-  {
-    "id": "auto-reel-007",
+    "id": "reel-his-kamakura-1185",
     "genre": "history",
-    "subject": "日本史",
-    "tags": ["年号語呂合わせ", "平安京", "初級"],
-    "question": "平安京遷都の年号（794年）の覚え方は？",
-    "answer": "鳴くよ（794）ウグイス平安京",
-    "onePointMemo": "7（な）9（く）4（よ）ウグイス",
+    "subject": "日本史・鎌倉時代",
+    "tags": ["中学歴史", "高校日本史", "年号暗記"],
+    "question": "鎌倉幕府の実質的な成立年は？",
+    "answer": "1185年（守護・地頭の設定）",
+    "onePointMemo": "1185（いい箱作ろう）で全国支配権を完全確立！",
+    "persona": "cool_analyst",
+    "hook_type": "puzzle_etymology",
+    "visual_skin": "historic_gold",
+    "bgm_genre": "epic_orchestra",
     "explanation": {
-      "title": "定番中の定番！",
-      "summaryPoint": "新しい都の始まりを告げる",
+      "title": "1185年の真実",
+      "summaryPoint": "支配権確立が本質",
       "scenes": [
         {
           "speaker": "female",
           "type": "text_strike",
-          "narration": "794年って平安京だっけ？泣くよウグイス？泣いてるの？",
-          "tts_text": "ななひゃくきゅうじゅうよねんって、へいあんきょうだっけ？なくようぐいす？ないているの？",
-          "subtitle": "ウグイスが【泣いている】の？",
-          "emphasisWord": "794年"
+          "subtitle": "1192年は古い！？",
+          "narration": "『いい国つくろう1192年』で覚えてる？実は今の教科書では1185年が主流です！",
+          "emphasisWord": "1185年が主流",
+          "params": {
+            "wrongText": "1192年成立",
+            "correctText": "1185年成立"
+          }
         },
         {
           "speaker": "male",
           "type": "dynamic_metaphor",
-          "narration": "泣くじゃなくて『鳴く』ね！7（な）9（く）4（よ）で春を告げる新しい都の始まりをイメージして覚えよう！",
-          "tts_text": "なく、じゃなくて、なく、ね！なな、きゅう、よん、で、はるをつげる、あたらしいみやこのはじまりを、いめーじしておぼえよう！",
-          "subtitle": "春を告げる【鳴くよ（794）】"
-        }
-      ]
-    }
-  },
-  {
-    "id": "auto-reel-008",
-    "genre": "history",
-    "subject": "日本史",
-    "tags": ["年号語呂合わせ", "鎌倉幕府", "初級"],
-    "question": "鎌倉幕府の成立年、今は1192年じゃないって本当？",
-    "answer": "本当。現在は実質的な支配権を握った1185年が有力。",
-    "onePointMemo": "いい国（1192）より、いい箱（1185）作ろう鎌倉幕府",
-    "explanation": {
-      "title": "歴史はアップデートされている！",
-      "summaryPoint": "守護・地頭を置いた1185年が有力",
-      "scenes": [
+          "subtitle": "権力の真意",
+          "narration": "1185年に守護・地頭を全国に配置し、実質的な警察権と徴税権を握ったからです！",
+          "emphasisWord": "守護・地頭",
+          "params": {
+            "conceptTitle": "幕府成立の要”,
+            "elements": [
+              { "x": 80, "y": 70, "shape": "circle", "label": "守護地頭", "sublabel": "1185年", "fill": "#b45309", "stroke": "#fde047" },
+              { "x": 260, "y": 70, "shape": "rect", "label": "全国支配", "sublabel": "実質成立", "fill": "#047857", "stroke": "#34d399" }
+            ],
+            "connectors": [
+              { "from": [80, 70], "to": [260, 70], "style": "laser", "color": "#fde047", "label": "実権" }
+            ]
+          }
+        },
         {
           "speaker": "female",
-          "type": "text_strike",
-          "narration": "えっ、鎌倉幕府って『いい国（1192）作ろう』じゃないの？私の記憶バグってる？",
-          "tts_text": "えっ、かまくらばくふって、いいくにつくろう、じゃないの？わたしのきおく、ばぐってる？",
-          "subtitle": "いい国（1192）作ろうじゃ【ないの】！？",
-          "emphasisWord": "1192年"
+          "type": "scale_of_justice",
+          "subtitle": "1185年が重い！",
+          "narration": "征夷大将軍の任官（1192）より、全国の軍事・警察権を得た1185年が実質スタート！",
+          "emphasisWord": "1185年",
+          "params": {
+            "topic": "成立時期の決定打",
+            "leftTitle": "1192年（肩書）",
+            "leftWeight": 30,
+            "rightTitle": "1185年（実権）",
+            "rightWeight": 70,
+            "balanceState": "right_heavy",
+            "takeaway": "いい箱（1185）作ろう鎌倉幕府"
+          }
         },
         {
           "speaker": "male",
-          "type": "dynamic_metaphor",
-          "narration": "昔はね！今は守護・地頭を置いて実権を握った1185年が有力なんだ。『いい箱（1185）作ろう』でアップデートして！",
-          "tts_text": "むかしはね！いまは、しゅご、じとうをおいて、じっけんをにぎった、せんひゃくはちじゅうごねんが、ゆうりょくなんだ。いいはこつくろう、で、あっぷでーとして！",
-          "subtitle": "今は【いい箱（1185）】作ろう！"
-        }
-      ]
-    }
-  },
-  {
-    "id": "auto-reel-009",
-    "genre": "history",
-    "subject": "日本史",
-    "tags": ["因果関係", "参勤交代", "中級"],
-    "question": "江戸時代の「参勤交代」、最大の目的は？",
-    "answer": "大名に多額の費用を使わせ、財力を削ぐため。",
-    "onePointMemo": "要するに「超高額な強制旅行」で大名を金欠にする作戦",
-    "explanation": {
-      "title": "ただの旅行じゃない！",
-      "summaryPoint": "反乱を防ぐための巧妙な罠",
-      "scenes": [
-        {
-          "speaker": "female",
-          "type": "text_strike",
-          "narration": "毎年江戸に行くのって、ただの殿様の旅行ツアーでしょ？楽しそう！",
-          "tts_text": "まいとし、えどにいくのって、ただの、とのさまのりょこうつあーでしょ？たのしそう！",
-          "subtitle": "ただの殿様の【旅行ツアー】でしょ？",
-          "emphasisWord": "参勤交代"
-        },
-        {
-          "speaker": "male",
-          "type": "dynamic_metaphor",
-          "narration": "とんでもない！旅費も江戸の滞在費も全部自腹。大名をわざと金欠にさせて、反乱を起こすお金を奪う徳川家の超賢い罠なんだよ！",
-          "tts_text": "とんでもない！りょひも、えどのたいざいひも、ぜんぶじばら。だいみょうをわざと、きんけつにさせて、はんらんをおこすおかねをうばう、とくがわけの、ちょうかしこいわな、なんだよ！",
-          "subtitle": "わざと【金欠にさせる】賢い罠！"
-        }
-      ]
-    }
-  },
-  {
-    "id": "auto-reel-010",
-    "genre": "history",
-    "subject": "日本史",
-    "tags": ["年号語呂合わせ", "本能寺の変", "中級"],
-    "question": "本能寺の変（1582年）の覚え方は？",
-    "answer": "イチゴパンツ（1582）で本能寺",
-    "onePointMemo": "15（イチゴ）82（パンツ）で寝込みを襲われた信長",
-    "explanation": {
-      "title": "インパクトで覚える年号！",
-      "summaryPoint": "寝込みを襲われた状況をイメージ",
-      "scenes": [
-        {
-          "speaker": "female",
-          "type": "text_strike",
-          "narration": "本能寺の変っていつだっけ？信長がやられちゃったやつだよね。",
-          "tts_text": "ほんのうじのへんって、いつだっけ？のぶながが、やられちゃったやつだよね。",
-          "subtitle": "本能寺の変って【いつ】だっけ？",
-          "emphasisWord": "1582年"
-        },
-        {
-          "speaker": "male",
-          "type": "dynamic_metaphor",
-          "narration": "そう！寝込みを襲われたから『イチゴパンツ（1582）で逃げる信長、本能寺の変』って覚えるとインパクト大でしょ！",
-          "tts_text": "そう！ねこみをおそわれたから、いちごぱんつ、でにげるのぶなが、ほんのうじのへん、っておぼえると、いんぱくと、だいでしょ！",
-          "subtitle": "【イチゴパンツ（1582）】で本能寺！"
-        }
-      ]
-    }
-  },
-  {
-    "id": "auto-reel-011",
-    "genre": "history",
-    "subject": "日本史",
-    "tags": ["因果関係", "米騒動", "上級"],
-    "question": "1918年の米騒動、その根本的な原因は？",
-    "answer": "シベリア出兵を見越した商人たちの米の買い占め。",
-    "onePointMemo": "兵隊さんが米を食うぞ！→今のうちに買い占めろ！→値段爆上がり",
-    "explanation": {
-      "title": "暴れただけじゃない！",
-      "summaryPoint": "戦争が引き起こした物価高騰",
-      "scenes": [
-        {
-          "speaker": "female",
-          "type": "text_strike",
-          "narration": "米騒動って、ただみんながお米食べたくて暴れただけでしょ？食いしん坊バンザイ！",
-          "tts_text": "こめそうどうって、ただ、みんながおこめたべたくて、あばれただけでしょ？くいしんぼう、ばんざい！",
-          "subtitle": "ただお米が【食べたかった】だけ？",
-          "emphasisWord": "米騒動"
-        },
-        {
-          "speaker": "male",
-          "type": "dynamic_metaphor",
-          "narration": "違うよ！軍隊がシベリアに行くから『大量の米が必要になる』と読んだ商人が米を買い占めたんだ。それで値段が爆上がりして、主婦たちがブチギレたってわけ！",
-          "tts_text": "ちがうよ！ぐんたいが、しべりあにいくから、たいりょうのこめがひつようになるとよんだ、しょうにんが、こめをかいしめたんだ。それでねだんがばくあがりして、しゅふたちが、ぶちぎれたってわけ！",
-          "subtitle": "商人の【買い占め】で主婦ブチギレ！"
-        }
-      ]
-    }
-  },
-  {
-    "id": "auto-reel-012",
-    "genre": "history",
-    "subject": "世界史",
-    "tags": ["年号語呂合わせ", "フランス革命", "初級"],
-    "question": "フランス革命の開始年（1789年）の覚え方は？",
-    "answer": "非難爆発（1789）、フランス革命",
-    "onePointMemo": "17（ひなん）89（ばくはつ）、民衆の怒りが爆発！",
-    "explanation": {
-      "title": "民衆の怒りが限界突破！",
-      "summaryPoint": "語呂合わせそのままの激しい事件",
-      "scenes": [
-        {
-          "speaker": "female",
-          "type": "text_strike",
-          "narration": "フランス革命ってマリー・アントワネットのやつだよね。いつ起きたの？",
-          "tts_text": "ふらんすかくめいって、まりーあんとわねっとのやつだよね。いつおきたの？",
-          "subtitle": "フランス革命って【いつ】起きた？",
-          "emphasisWord": "1789年"
-        },
-        {
-          "speaker": "male",
-          "type": "dynamic_metaphor",
-          "narration": "民衆の怒りが限界突破した日だから、『非難（17）爆発（89）、フランス革命』！語呂合わせそのままの激しい事件だよ。",
-          "tts_text": "みんしゅうのいかりが、げんかいとっぱしたひだから、ひなん、ばくはつ、ふらんすかくめい！ごろあわせそのままの、はげしいじけんだよ。",
-          "subtitle": "【非難（17）爆発（89）】フランス革命！"
-        }
-      ]
-    }
-  },
-  {
-    "id": "auto-reel-013",
-    "genre": "history",
-    "subject": "世界史",
-    "tags": ["条約の決定打", "トルデシリャス条約", "中級"],
-    "question": "スペインとポルトガルで世界を二分した1494年の条約は？",
-    "answer": "トルデシリャス条約",
-    "onePointMemo": "意欲よ（1494）燃えろ、トルデシリャス条約で世界を山分け",
-    "explanation": {
-      "title": "地球を勝手に山分け！？",
-      "summaryPoint": "大航海時代のトンデモ条約",
-      "scenes": [
-        {
-          "speaker": "female",
-          "type": "text_strike",
-          "narration": "トルデ...シルヤス？名前が長くて無理！何した条約？",
-          "tts_text": "とるで、しるやす？なまえがながくて、むり！なにしたじょうやく？",
-          "subtitle": "名前が長くて【絶対無理】！",
-          "emphasisWord": "トルデシリャス条約"
-        },
-        {
-          "speaker": "male",
-          "type": "dynamic_metaphor",
-          "narration": "大航海時代にスペインとポルトガルが勝手に『地球の半分ずつ俺らのな！』って決めたトンデモ条約！『意欲よ（1494）燃えろ！取るで（トルデ）、知るやす！』で覚えよう！",
-          "tts_text": "だいこうかいじだいに、すぺいんとぽるとがるが、かってに、ちきゅうのはんぶんずつ、おれらのな！ってきめた、とんでもじょうやく！いよくよ、もえろ！とるで、しるやす！でおぼえよう！",
-          "subtitle": "【意欲よ（1494）取るで！】地球を半分こ"
-        }
-      ]
-    }
-  },
-  {
-    "id": "auto-reel-014",
-    "genre": "history",
-    "subject": "世界史",
-    "tags": ["紛らわしい対比", "イスラム教", "中級"],
-    "question": "イスラム教のスンニ派とシーア派、どっちが多数派？",
-    "answer": "スンニ派（約9割）",
-    "onePointMemo": "「すん」ごく多いのが「スン」ニ派",
-    "explanation": {
-      "title": "もうテストで迷わない！",
-      "summaryPoint": "ダジャレで一発暗記",
-      "scenes": [
-        {
-          "speaker": "female",
-          "type": "text_strike",
-          "narration": "スンニ派とシーア派って毎回どっちが多いか忘れちゃう。どっちが多数派？",
-          "tts_text": "すんにはと、しーあはって、まいかい、どっちがおおいか、わすれちゃう。どっちがたすうは？",
-          "subtitle": "どっちが多数派か【すぐ忘れる】！",
-          "emphasisWord": "スンニ派"
-        },
-        {
-          "speaker": "male",
-          "type": "dynamic_metaphor",
-          "narration": "これ超簡単な覚え方があるよ！『すん』ごく多いのが『スン』ニ派！これでテストでもう絶対に迷わない！",
-          "tts_text": "これ、ちょうかんたんな、おぼえかたがあるよ！すんごくおおいのが、すんには！これでてすとでも、もうぜったいにまよわない！",
-          "subtitle": "【すん】ごく多いのが【スン】ニ派！"
-        }
-      ]
-    }
-  },
-  {
-    "id": "auto-reel-015",
-    "genre": "history",
-    "subject": "世界史",
-    "tags": ["皇帝", "アウグストゥス", "中級"],
-    "question": "ローマ帝国の初代皇帝アウグストゥスの元の名前は？",
-    "answer": "オクタウィアヌス",
-    "onePointMemo": "奥（オクタ）さんに内緒で、あーぐっすり（アウグストゥス）眠る初代皇帝",
-    "explanation": {
-      "title": "名前が2つある理由！",
-      "summaryPoint": "アウグストゥスは「尊厳者」という称号",
-      "scenes": [
-        {
-          "speaker": "female",
-          "type": "text_strike",
-          "narration": "オクタウィアヌスとアウグストゥスって別人だと思ってた！名前変わりすぎじゃない？",
-          "tts_text": "おくたうぃあぬすと、あうぐすとぅすって、べつじんだとおもってた！なまえ、かわりすぎじゃない？",
-          "subtitle": "この二人って【別人】じゃないの？",
-          "emphasisWord": "オクタウィアヌス"
-        },
-        {
-          "speaker": "male",
-          "type": "dynamic_metaphor",
-          "narration": "アウグストゥスは『尊厳者』っていう称号なんだ。戦争を終わらせて『あー、ぐっすり（アウグストゥス）眠れる平和なローマを作ったオクタウィアヌス』って覚えると完璧！",
-          "tts_text": "あうぐすとぅすは、そんげんしゃっていう、しょうごうなんだ。せんそうをおわらせて、あー、ぐっすりねむれる、へいわなろーまをつくった、おくたうぃあぬす、っておぼえると、かんぺき！",
-          "subtitle": "あー【ぐっすり（アウグストゥス）】眠れる"
-        }
-      ]
-    }
-  },
-  {
-    "id": "auto-reel-016",
-    "genre": "history",
-    "subject": "世界史",
-    "tags": ["条約の決定打", "ウェストファリア条約", "上級"],
-    "question": "三十年戦争の講和条約「ウェストファリア条約（1648年）」の覚え方は？",
-    "answer": "疲労しわ（1648）寄せ、ウェストファリア",
-    "onePointMemo": "16（疲労）48（しわ寄せ）。長すぎる戦争でヨーロッパ中がボロボロ",
-    "explanation": {
-      "title": "戦争長すぎてボロボロ！",
-      "summaryPoint": "主権国家体制の始まり",
-      "scenes": [
-        {
-          "speaker": "female",
-          "type": "text_strike",
-          "narration": "三十年戦争って長すぎない？絶対みんな疲れてたよね。",
-          "tts_text": "さんじゅうねんせんそうって、ながすぎない？ぜったいみんな、つかれてたよね。",
-          "subtitle": "三十年も戦争してたら【疲れる】よね？",
-          "emphasisWord": "1648年"
-        },
-        {
-          "speaker": "male",
-          "type": "dynamic_metaphor",
-          "narration": "その通り！だから『疲労（16）しわ（48）寄せ、ウェストファリア条約』なんだ。この条約で初めて今の『主権国家』のルールができた超重要ポイントだよ！",
-          "tts_text": "そのとおり！だから、ひろう、しわよせ、うぇすとふぁりあじょうやく、なんだ。このじょうやくではじめて、いまの、しゅけんこっかの、るーるができた、ちょうじゅうようぽいんとだよ！",
-          "subtitle": "【疲労（16）しわ（48）寄せ】ウェストファリア！"
-        }
-      ]
-    }
-  },
-  {
-    "id": "auto-reel-017",
-    "genre": "science",
-    "subject": "日常の科学",
-    "tags": ["光の散乱", "レイリー散乱", "初級"],
-    "question": "空が青い理由は「何散乱」？",
-    "answer": "レイリー散乱",
-    "onePointMemo": "青い光は波長が短く散らばりやすい。パリピのようにすぐ散らばる！",
-    "explanation": {
-      "title": "海の反射じゃないの！？",
-      "summaryPoint": "青い光は波長が短く散乱しやすい",
-      "scenes": [
-        {
-          "speaker": "female",
-          "type": "text_strike",
-          "narration": "空が青いのって、海の色が反射してるんでしょ？ロマンチック！",
-          "tts_text": "そらがあおいのは、うみのいろがはんしゃしてるんでしょ？ろまんちっく！",
-          "subtitle": "空が青いのは【海が反射】してるから？",
-          "emphasisWord": "レイリー散乱"
-        },
-        {
-          "speaker": "male",
-          "type": "dynamic_metaphor",
-          "narration": "それ実はよくある勘違い！太陽の光のうち、波長が短い『青色』が空気の粒にぶつかって散らばるから青く見えるんだ。これをレイリー散乱っていうよ！",
-          "tts_text": "それ、じつはよくあるかんちがい！たいようのひかりのうち、はちょうがみじかいあおいろが、くうきのつぶにぶつかって、ちらばるから、あおくみえるんだ。これを、れいりーさんらん、っていうよ！",
-          "subtitle": "青い光が【空中で散らばる】から！"
-        }
-      ]
-    }
-  },
-  {
-    "id": "auto-reel-018",
-    "genre": "exam",
-    "subject": "ITパスポート重要語",
-    "tags": ["セキュリティ", "フィッシング", "中級"],
-    "question": "偽サイトに誘導してパスワードを盗む手口を何という？",
-    "answer": "フィッシング詐欺（Phishing）",
-    "onePointMemo": "釣り（Fishing）のように、エサ（偽メール）で個人情報を一本釣り！",
-    "explanation": {
-      "title": "魚釣りと同じ原理！",
-      "summaryPoint": "偽メールというエサで情報を釣る",
-      "scenes": [
-        {
-          "speaker": "female",
-          "type": "text_strike",
-          "narration": "フィッシング詐欺って、魚釣りみたいな名前だけど、何を釣るの？",
-          "tts_text": "ふぃっしんぐさぎって、さかなつりみたいななまえだけど、なにをつるの？",
-          "subtitle": "フィッシングって【何を釣る】の？",
-          "emphasisWord": "フィッシング詐欺"
-        },
-        {
-          "speaker": "male",
-          "type": "dynamic_metaphor",
-          "narration": "君のパスワードやクレジットカード情報だよ！Amazonや銀行のフリをした『偽メール』をエサにして、偽サイトで情報を釣るんだ。騙されないで！",
-          "tts_text": "きみの、ぱすわーどや、くれじっとかーどじょうほうだよ！あまぞんや、ぎんこうのふりをした、にせめーるをえさにして、にせさいとで、じょうほうをつるんだ。だまされないで！",
-          "subtitle": "偽メールをエサに【情報を釣る】！"
-        }
-      ]
-    }
-  },
-  {
-    "id": "auto-reel-019",
-    "genre": "science",
-    "subject": "日常の科学",
-    "tags": ["生物", "ミトコンドリア", "中級"],
-    "question": "細胞内でエネルギーを作り出す小器官は？",
-    "answer": "ミトコンドリア",
-    "onePointMemo": "水戸のコンドルが発電中（細胞のエネルギー工場）",
-    "explanation": {
-      "title": "ただのお茶汲みじゃない！",
-      "summaryPoint": "ミトコンドリアは細胞内の発電所",
-      "scenes": [
-        {
-          "speaker": "female",
-          "type": "text_strike",
-          "narration": "ミトコンドリアって理科でやったけど、結局細胞の中で何してるの？お茶汲み？",
-          "tts_text": "みとこんどりあって、りかでやったけど、けっきょく、さいぼうのなかでなにしてるの？おちゃくみ？",
-          "subtitle": "細胞の中で【何してる】の？",
-          "emphasisWord": "ミトコンドリア"
-        },
-        {
-          "speaker": "male",
-          "type": "dynamic_metaphor",
-          "narration": "お茶汲みどころか大黒柱！ミトコンドリアは栄養から生きるための『エネルギー』を作り出す発電所なんだ。『水戸のコンドルが発電中』で覚えて！",
-          "tts_text": "おちゃくみどころか、だいこくばしら！みとこんどりあは、えいようから、いきるための、えねるぎーをつくりだす、はつでんしょなんだ。みとのこんどるが、はつでんちゅう、でおぼえて！",
-          "subtitle": "エネルギーを作る【細胞の発電所】！"
-        }
-      ]
-    }
-  },
-  {
-    "id": "auto-reel-020",
-    "genre": "exam",
-    "subject": "ITパスポート重要語",
-    "tags": ["セキュリティ", "SQLインジェクション", "上級"],
-    "question": "不正な命令文を入力してデータベースを操る攻撃は？",
-    "answer": "SQLインジェクション",
-    "onePointMemo": "注文票の備考欄に「全部タダにしろ」と書き足してシステムを騙す手口",
-    "explanation": {
-      "title": "ITなのに注射！？",
-      "summaryPoint": "入力欄から不正な命令を注入する攻撃",
-      "scenes": [
-        {
-          "speaker": "female",
-          "type": "text_strike",
-          "narration": "SQLインジェクション？注射（インジェクション）ってこと？ITなのに医療用語？",
-          "tts_text": "えすきゅーえる、いんじぇくしょん？ちゅうしゃってこと？あいてぃーなのに、いりょうようご？",
-          "subtitle": "IT用語なのに【注射】！？",
-          "emphasisWord": "SQLインジェクション"
-        },
-        {
-          "speaker": "male",
-          "type": "dynamic_metaphor",
-          "narration": "良い着眼点！Webサイトの入力欄に、不正なデータベース命令（SQL）を『注射』するように流し込んで、データを盗んだり改ざんする恐ろしいサイバー攻撃なんだ。",
-          "tts_text": "よいちゃくがんてん！うぇぶさいとの、にゅうりょくらんに、ふせいな、でーたべーすめいれいを、ちゅうしゃするように、ながしこんで、でーたをぬすんだり、かいざんする、おそろしい、さいばーこうげきなんだ。",
-          "subtitle": "不正な命令を【注入（注射）】する攻撃！"
+          "type": "quiz_choice",
+          "subtitle": "一撃で解け！",
+          "narration": "守護・地頭を設置して実質幕府が開かれた年は？",
+          "emphasisWord": "1185年",
+          "params": {
+            "questionText": "鎌倉幕府の実質成立年は？",
+            "correctChoice": "1185年",
+            "choices": ["1185年", "1192年", "1160年"]
+          }
         }
       ]
     }
