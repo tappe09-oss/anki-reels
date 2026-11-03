@@ -3,7 +3,11 @@
     "id": "reel-eng-run-company",
     "genre": "english",
     "subject": "英語・多義語",
-    "tags": ["高校英語", "単語記憶", "共通テスト"],
+    "tags": [
+      "高校英語",
+      "単語記憶",
+      "共通テスト"
+    ],
     "question": "「run a company」の正確な意味は？",
     "answer": "会社を経営する",
     "onePointMemo": "run＝「連続してスムーズに流す・動かす」が原義",
@@ -35,11 +39,39 @@
           "params": {
             "conceptTitle": "runのイメージ派生",
             "elements": [
-              { "x": 80, "y": 70, "shape": "circle", "label": "流れ", "sublabel": "連続移動", "fill": "#0369a1", "stroke": "#38bdf8" },
-              { "x": 260, "y": 70, "shape": "rect", "label": "経営", "sublabel": "事業運用", "fill": "#047857", "stroke": "#34d399" }
+              {
+                "x": 80,
+                "y": 70,
+                "shape": "circle",
+                "label": "流れ",
+                "sublabel": "連続移動",
+                "fill": "#0369a1",
+                "stroke": "#38bdf8"
+              },
+              {
+                "x": 260,
+                "y": 70,
+                "shape": "rect",
+                "label": "経営",
+                "sublabel": "事業運用",
+                "fill": "#047857",
+                "stroke": "#34d399"
+              }
             ],
             "connectors": [
-              { "from": [80, 70], "to": [260, 70], "style": "laser", "color": "#38bdf8", "label": "拡張" }
+              {
+                "from": [
+                  80,
+                  70
+                ],
+                "to": [
+                  260,
+                  70
+                ],
+                "style": "laser",
+                "color": "#38bdf8",
+                "label": "拡張"
+              }
             ]
           }
         },
@@ -68,7 +100,11 @@
           "params": {
             "questionText": "「run a business」の意味は？",
             "correctChoice": "事業を経営する",
-            "choices": ["事業を経営する", "店まで走る", "事業を逃走させる"]
+            "choices": [
+              "事業を経営する",
+              "店まで走る",
+              "事業を逃走させる"
+            ]
           }
         }
       ]
@@ -78,7 +114,11 @@
     "id": "reel-his-kamakura-1185",
     "genre": "history",
     "subject": "日本史・鎌倉時代",
-    "tags": ["中学歴史", "高校日本史", "年号暗記"],
+    "tags": [
+      "中学歴史",
+      "高校日本史",
+      "年号暗記"
+    ],
     "question": "鎌倉幕府の実質的な成立年は？",
     "answer": "1185年（守護・地頭の設定）",
     "onePointMemo": "1185（いい箱作ろう）で全国支配権を完全確立！",
@@ -110,11 +150,39 @@
           "params": {
             "conceptTitle": "幕府成立の要",
             "elements": [
-              { "x": 80, "y": 70, "shape": "circle", "label": "守護地頭", "sublabel": "1185年", "fill": "#b45309", "stroke": "#fde047" },
-              { "x": 260, "y": 70, "shape": "rect", "label": "全国支配", "sublabel": "実質成立", "fill": "#047857", "stroke": "#34d399" }
+              {
+                "x": 80,
+                "y": 70,
+                "shape": "circle",
+                "label": "守護地頭",
+                "sublabel": "1185年",
+                "fill": "#b45309",
+                "stroke": "#fde047"
+              },
+              {
+                "x": 260,
+                "y": 70,
+                "shape": "rect",
+                "label": "全国支配",
+                "sublabel": "実質成立",
+                "fill": "#047857",
+                "stroke": "#34d399"
+              }
             ],
             "connectors": [
-              { "from": [80, 70], "to": [260, 70], "style": "laser", "color": "#fde047", "label": "実権" }
+              {
+                "from": [
+                  80,
+                  70
+                ],
+                "to": [
+                  260,
+                  70
+                ],
+                "style": "laser",
+                "color": "#fde047",
+                "label": "実権"
+              }
             ]
           }
         },
@@ -143,15 +211,25 @@
           "params": {
             "questionText": "鎌倉幕府の実質成立年は？",
             "correctChoice": "1185年",
-            "choices": ["1185年", "1192年", "1160年"]
+            "choices": [
+              "1185年",
+              "1192年",
+              "1160年"
+            ]
           }
         }
-        [
+      ]
+    }
+  },
   {
     "id": "reel-001",
     "genre": "english",
     "subject": "英語・前置詞",
-    "tags": ["高校英語", "前置詞", "共通テスト"],
+    "tags": [
+      "高校英語",
+      "前置詞",
+      "共通テスト"
+    ],
     "question": "「壁にハエが止まっている」ときの正しい前置詞は？",
     "answer": "on",
     "onePointMemo": "on＝「〜の上に」ではなく「接触」",
@@ -183,11 +261,39 @@
           "params": {
             "conceptTitle": "onの空間認識",
             "elements": [
-              { "x": 80, "y": 150, "shape": "rect", "label": "壁", "sublabel": "垂直面", "fill": "#94a3b8", "stroke": "#64748b" },
-              { "x": 120, "y": 150, "shape": "circle", "label": "ハエ", "sublabel": "付着", "fill": "#10b981", "stroke": "#059669" }
+              {
+                "x": 80,
+                "y": 150,
+                "shape": "rect",
+                "label": "壁",
+                "sublabel": "垂直面",
+                "fill": "#94a3b8",
+                "stroke": "#64748b"
+              },
+              {
+                "x": 120,
+                "y": 150,
+                "shape": "circle",
+                "label": "ハエ",
+                "sublabel": "付着",
+                "fill": "#10b981",
+                "stroke": "#059669"
+              }
             ],
             "connectors": [
-              { "from": [120, 150], "to": [80, 150], "style": "laser", "color": "#10b981", "label": "接触" }
+              {
+                "from": [
+                  120,
+                  150
+                ],
+                "to": [
+                  80,
+                  150
+                ],
+                "style": "laser",
+                "color": "#10b981",
+                "label": "接触"
+              }
             ]
           }
         },
@@ -211,7 +317,11 @@
           "params": {
             "questionText": "天井にいるハエは？",
             "correctChoice": "on",
-            "choices": ["on", "above", "in"]
+            "choices": [
+              "on",
+              "above",
+              "in"
+            ]
           }
         }
       ]
@@ -221,7 +331,11 @@
     "id": "reel-002",
     "genre": "english",
     "subject": "英語・多義語",
-    "tags": ["英単語", "語源", "長文読解"],
+    "tags": [
+      "英単語",
+      "語源",
+      "長文読解"
+    ],
     "question": "「in this respect」の意味は？",
     "answer": "この点において",
     "onePointMemo": "re(再び)＋spect(見る)＝何度も見る点",
@@ -253,11 +367,39 @@
           "params": {
             "conceptTitle": "語源の結合",
             "elements": [
-              { "x": 60, "y": 70, "shape": "circle", "label": "再び", "sublabel": "re", "fill": "#3b82f6", "stroke": "#2563eb" },
-              { "x": 260, "y": 70, "shape": "rect", "label": "見る", "sublabel": "spect", "fill": "#f59e0b", "stroke": "#d97706" }
+              {
+                "x": 60,
+                "y": 70,
+                "shape": "circle",
+                "label": "再び",
+                "sublabel": "re",
+                "fill": "#3b82f6",
+                "stroke": "#2563eb"
+              },
+              {
+                "x": 260,
+                "y": 70,
+                "shape": "rect",
+                "label": "見る",
+                "sublabel": "spect",
+                "fill": "#f59e0b",
+                "stroke": "#d97706"
+              }
             ],
             "connectors": [
-              { "from": [60, 70], "to": [260, 70], "style": "laser", "color": "#fbbf24", "label": "合体" }
+              {
+                "from": [
+                  60,
+                  70
+                ],
+                "to": [
+                  260,
+                  70
+                ],
+                "style": "laser",
+                "color": "#fbbf24",
+                "label": "合体"
+              }
             ]
           }
         },
@@ -270,8 +412,14 @@
           "params": {
             "theme": "respectの派生",
             "parts": [
-              { "name": "人へ", "role": "尊敬・敬意" },
-              { "name": "物事へ", "role": "点・観点" }
+              {
+                "name": "人へ",
+                "role": "尊敬・敬意"
+              },
+              {
+                "name": "物事へ",
+                "role": "点・観点"
+              }
             ]
           }
         },
@@ -284,7 +432,11 @@
           "params": {
             "questionText": "in this respect？",
             "correctChoice": "この点において",
-            "choices": ["この点において", "この尊敬の中で", "再び見るために"]
+            "choices": [
+              "この点において",
+              "この尊敬の中で",
+              "再び見るために"
+            ]
           }
         }
       ]
@@ -294,7 +446,11 @@
     "id": "reel-003",
     "genre": "history",
     "subject": "日本史・江戸時代",
-    "tags": ["中学歴史", "江戸幕府", "外交"],
+    "tags": [
+      "中学歴史",
+      "江戸幕府",
+      "外交"
+    ],
     "question": "鎖国中の日本で、幕府が公認していた「４つの窓口」のうちオランダとの窓口は？",
     "answer": "長崎",
     "onePointMemo": "完全な孤立ではなく、幕府が貿易を独占管理！",
@@ -325,7 +481,12 @@
           "emphasisWord": "貿易の独占",
           "params": {
             "flowName": "幕府の管理網",
-            "nodes": ["長崎", "対馬", "薩摩", "松前"]
+            "nodes": [
+              "長崎",
+              "対馬",
+              "薩摩",
+              "松前"
+            ]
           }
         },
         {
@@ -337,10 +498,22 @@
           "params": {
             "theme": "四つの口",
             "parts": [
-              { "name": "長崎", "role": "蘭・清" },
-              { "name": "対馬", "role": "朝鮮" },
-              { "name": "薩摩", "role": "琉球" },
-              { "name": "松前", "role": "アイヌ" }
+              {
+                "name": "長崎",
+                "role": "蘭・清"
+              },
+              {
+                "name": "対馬",
+                "role": "朝鮮"
+              },
+              {
+                "name": "薩摩",
+                "role": "琉球"
+              },
+              {
+                "name": "松前",
+                "role": "アイヌ"
+              }
             ]
           }
         },
@@ -353,7 +526,11 @@
           "params": {
             "questionText": "蘭・清との窓口は？",
             "correctChoice": "長崎",
-            "choices": ["長崎", "対馬", "薩摩"]
+            "choices": [
+              "長崎",
+              "対馬",
+              "薩摩"
+            ]
           }
         }
       ]
@@ -363,7 +540,11 @@
     "id": "reel-004",
     "genre": "history",
     "subject": "世界史・第一次世界大戦",
-    "tags": ["世界史", "WW1", "帝国主義"],
+    "tags": [
+      "世界史",
+      "WW1",
+      "帝国主義"
+    ],
     "question": "第一次世界大戦を世界規模に拡大させた根本的なシステムは？",
     "answer": "同盟の連鎖",
     "onePointMemo": "一つの暗殺が、秘密同盟のドミノ倒しを起動した",
@@ -395,11 +576,39 @@
           "params": {
             "conceptTitle": "同盟ネットワーク",
             "elements": [
-              { "x": 50, "y": 70, "shape": "circle", "label": "セルビア", "sublabel": "露と協調", "fill": "#dc2626", "stroke": "#b91c1c" },
-              { "x": 250, "y": 70, "shape": "circle", "label": "オーストリア", "sublabel": "独と同盟", "fill": "#2563eb", "stroke": "#1d4ed8" }
+              {
+                "x": 50,
+                "y": 70,
+                "shape": "circle",
+                "label": "セルビア",
+                "sublabel": "露と協調",
+                "fill": "#dc2626",
+                "stroke": "#b91c1c"
+              },
+              {
+                "x": 250,
+                "y": 70,
+                "shape": "circle",
+                "label": "オーストリア",
+                "sublabel": "独と同盟",
+                "fill": "#2563eb",
+                "stroke": "#1d4ed8"
+              }
             ],
             "connectors": [
-              { "from": [50, 70], "to": [250, 70], "style": "laser", "color": "#9ca3af", "label": "対立" }
+              {
+                "from": [
+                  50,
+                  70
+                ],
+                "to": [
+                  250,
+                  70
+                ],
+                "style": "laser",
+                "color": "#9ca3af",
+                "label": "対立"
+              }
             ]
           }
         },
@@ -411,7 +620,12 @@
           "emphasisWord": "次々と参戦",
           "params": {
             "start": "サラエボ事件",
-            "dominos": ["墺が宣戦", "露が動員", "独が宣戦", "英仏参戦"]
+            "dominos": [
+              "墺が宣戦",
+              "露が動員",
+              "独が宣戦",
+              "英仏参戦"
+            ]
           }
         },
         {
@@ -423,7 +637,11 @@
           "params": {
             "questionText": "大戦の引き金は？",
             "correctChoice": "サラエボ事件",
-            "choices": ["サラエボ事件", "ファショダ事件", "アガディール事件"]
+            "choices": [
+              "サラエボ事件",
+              "ファショダ事件",
+              "アガディール事件"
+            ]
           }
         }
       ]
@@ -433,7 +651,11 @@
     "id": "reel-005",
     "genre": "science",
     "subject": "化学・酸化還元",
-    "tags": ["高校化学", "酸化還元", "共通テスト"],
+    "tags": [
+      "高校化学",
+      "酸化還元",
+      "共通テスト"
+    ],
     "question": "化学反応において「酸化された」という言葉の、最も広く使える定義は？",
     "answer": "電子を失う",
     "onePointMemo": "酸素は忘れて！電子を奪われるのが「酸化」",
@@ -465,11 +687,39 @@
           "params": {
             "conceptTitle": "電子の移動",
             "elements": [
-              { "x": 80, "y": 70, "shape": "circle", "label": "原子", "sublabel": "物質", "fill": "#4f46e5", "stroke": "#4338ca" },
-              { "x": 260, "y": 70, "shape": "circle", "label": "電子", "sublabel": "マイナス", "fill": "#eab308", "stroke": "#ca8a04" }
+              {
+                "x": 80,
+                "y": 70,
+                "shape": "circle",
+                "label": "原子",
+                "sublabel": "物質",
+                "fill": "#4f46e5",
+                "stroke": "#4338ca"
+              },
+              {
+                "x": 260,
+                "y": 70,
+                "shape": "circle",
+                "label": "電子",
+                "sublabel": "マイナス",
+                "fill": "#eab308",
+                "stroke": "#ca8a04"
+              }
             ],
             "connectors": [
-              { "from": [80, 70], "to": [260, 70], "style": "laser", "color": "#facc15", "label": "放出" }
+              {
+                "from": [
+                  80,
+                  70
+                ],
+                "to": [
+                  260,
+                  70
+                ],
+                "style": "laser",
+                "color": "#facc15",
+                "label": "放出"
+              }
             ]
           }
         },
@@ -493,7 +743,11 @@
           "params": {
             "questionText": "酸化されるとき？",
             "correctChoice": "電子を失う",
-            "choices": ["電子を失う", "電子を受け取る", "変化しない"]
+            "choices": [
+              "電子を失う",
+              "電子を受け取る",
+              "変化しない"
+            ]
           }
         }
       ]
@@ -503,7 +757,11 @@
     "id": "reel-006",
     "genre": "science",
     "subject": "物理・力学",
-    "tags": ["中学理科", "物理", "力学"],
+    "tags": [
+      "中学理科",
+      "物理",
+      "力学"
+    ],
     "question": "「つり合いの力」と「作用・反作用の力」の決定的な違いは？",
     "answer": "はたらく物体が1つか2つか",
     "onePointMemo": "つり合いは1物体、作用反作用は2物体間！",
@@ -535,11 +793,39 @@
           "params": {
             "conceptTitle": "力の作用点",
             "elements": [
-              { "x": 100, "y": 50, "shape": "rect", "label": "物体A", "sublabel": "", "fill": "#ec4899", "stroke": "#db2777" },
-              { "x": 200, "y": 150, "shape": "rect", "label": "物体B", "sublabel": "", "fill": "#06b6d4", "stroke": "#0891b2" }
+              {
+                "x": 100,
+                "y": 50,
+                "shape": "rect",
+                "label": "物体A",
+                "sublabel": "",
+                "fill": "#ec4899",
+                "stroke": "#db2777"
+              },
+              {
+                "x": 200,
+                "y": 150,
+                "shape": "rect",
+                "label": "物体B",
+                "sublabel": "",
+                "fill": "#06b6d4",
+                "stroke": "#0891b2"
+              }
             ],
             "connectors": [
-              { "from": [100, 50], "to": [200, 150], "style": "laser", "color": "#f43f5e", "label": "相互" }
+              {
+                "from": [
+                  100,
+                  50
+                ],
+                "to": [
+                  200,
+                  150
+                ],
+                "style": "laser",
+                "color": "#f43f5e",
+                "label": "相互"
+              }
             ]
           }
         },
@@ -563,7 +849,11 @@
           "params": {
             "questionText": "壁から受ける力は？",
             "correctChoice": "作用反作用",
-            "choices": ["作用反作用", "力のつり合い", "摩擦力"]
+            "choices": [
+              "作用反作用",
+              "力のつり合い",
+              "摩擦力"
+            ]
           }
         }
       ]
@@ -573,7 +863,11 @@
     "id": "reel-007",
     "genre": "math",
     "subject": "数学・正負の数",
-    "tags": ["中学数学", "マイナス", "直感理解"],
+    "tags": [
+      "中学数学",
+      "マイナス",
+      "直感理解"
+    ],
     "question": "マイナス × マイナス がプラスになる直感的な理由は？",
     "answer": "数直線上で180度反転するから",
     "onePointMemo": "マイナスを掛ける＝数直線上で「くるっと反転」",
@@ -617,12 +911,52 @@
           "params": {
             "conceptTitle": "反転の連続",
             "elements": [
-              { "x": 50, "y": 100, "shape": "circle", "label": "右", "sublabel": "+", "fill": "#ef4444", "stroke": "#b91c1c" },
-              { "x": 250, "y": 100, "shape": "circle", "label": "右", "sublabel": "+", "fill": "#ef4444", "stroke": "#b91c1c" }
+              {
+                "x": 50,
+                "y": 100,
+                "shape": "circle",
+                "label": "右",
+                "sublabel": "+",
+                "fill": "#ef4444",
+                "stroke": "#b91c1c"
+              },
+              {
+                "x": 250,
+                "y": 100,
+                "shape": "circle",
+                "label": "右",
+                "sublabel": "+",
+                "fill": "#ef4444",
+                "stroke": "#b91c1c"
+              }
             ],
             "connectors": [
-              { "from": [50, 100], "to": [150, 50], "style": "laser", "color": "#64748b", "label": "反転1" },
-              { "from": [150, 50], "to": [250, 100], "style": "laser", "color": "#64748b", "label": "反転2" }
+              {
+                "from": [
+                  50,
+                  100
+                ],
+                "to": [
+                  150,
+                  50
+                ],
+                "style": "laser",
+                "color": "#64748b",
+                "label": "反転1"
+              },
+              {
+                "from": [
+                  150,
+                  50
+                ],
+                "to": [
+                  250,
+                  100
+                ],
+                "style": "laser",
+                "color": "#64748b",
+                "label": "反転2"
+              }
             ]
           }
         },
@@ -635,7 +969,11 @@
           "params": {
             "questionText": "負を掛ける操作は？",
             "correctChoice": "180度反転",
-            "choices": ["180度反転", "90度回転", "平行移動"]
+            "choices": [
+              "180度反転",
+              "90度回転",
+              "平行移動"
+            ]
           }
         }
       ]
@@ -645,7 +983,11 @@
     "id": "reel-008",
     "genre": "math",
     "subject": "数学・順列と組合せ",
-    "tags": ["高校数学", "確率", "順列組合せ"],
+    "tags": [
+      "高校数学",
+      "確率",
+      "順列組合せ"
+    ],
     "question": "順列(P)と組合せ(C)を使い分ける絶対的な基準は？",
     "answer": "選んだ後の「順番」を区別するかどうか",
     "onePointMemo": "Pは「並べる」まで、Cは「選ぶ」だけ！",
@@ -688,11 +1030,39 @@
           "params": {
             "conceptTitle": "役割の有無",
             "elements": [
-              { "x": 100, "y": 70, "shape": "rect", "label": "役職P", "sublabel": "順列", "fill": "#8b5cf6", "stroke": "#7c3aed" },
-              { "x": 200, "y": 70, "shape": "circle", "label": "平組C", "sublabel": "組合せ", "fill": "#14b8a6", "stroke": "#0d9488" }
+              {
+                "x": 100,
+                "y": 70,
+                "shape": "rect",
+                "label": "役職P",
+                "sublabel": "順列",
+                "fill": "#8b5cf6",
+                "stroke": "#7c3aed"
+              },
+              {
+                "x": 200,
+                "y": 70,
+                "shape": "circle",
+                "label": "平組C",
+                "sublabel": "組合せ",
+                "fill": "#14b8a6",
+                "stroke": "#0d9488"
+              }
             ],
             "connectors": [
-              { "from": [100, 70], "to": [200, 70], "style": "laser", "color": "#cbd5e1", "label": "比較" }
+              {
+                "from": [
+                  100,
+                  70
+                ],
+                "to": [
+                  200,
+                  70
+                ],
+                "style": "laser",
+                "color": "#cbd5e1",
+                "label": "比較"
+              }
             ]
           }
         },
@@ -705,7 +1075,11 @@
           "params": {
             "questionText": "走る順番を決める？",
             "correctChoice": "順列(P)",
-            "choices": ["順列(P)", "組合せ(C)", "階乗(!)"]
+            "choices": [
+              "順列(P)",
+              "組合せ(C)",
+              "階乗(!)"
+            ]
           }
         }
       ]
@@ -715,7 +1089,11 @@
     "id": "reel-009",
     "genre": "social",
     "subject": "公民・三権分立",
-    "tags": ["中学公民", "政治", "憲法"],
+    "tags": [
+      "中学公民",
+      "政治",
+      "憲法"
+    ],
     "question": "三権分立の真の目的は、権力を分けることではなく何？",
     "answer": "互いに抑制と均衡を保つこと（チェック＆バランス）",
     "onePointMemo": "独立ではなく、お互いに監視し合う仕組み！",
@@ -746,7 +1124,11 @@
           "emphasisWord": "監視し止める",
           "params": {
             "flowName": "監視の三角形",
-            "nodes": ["国会", "内閣", "裁判所"]
+            "nodes": [
+              "国会",
+              "内閣",
+              "裁判所"
+            ]
           }
         },
         {
@@ -758,9 +1140,18 @@
           "params": {
             "theme": "権力の牽制",
             "parts": [
-              { "name": "不信任案", "role": "国会→内閣" },
-              { "name": "解散権", "role": "内閣→国会" },
-              { "name": "違憲審査", "role": "司法の監視" }
+              {
+                "name": "不信任案",
+                "role": "国会→内閣"
+              },
+              {
+                "name": "解散権",
+                "role": "内閣→国会"
+              },
+              {
+                "name": "違憲審査",
+                "role": "司法の監視"
+              }
             ]
           }
         },
@@ -773,7 +1164,11 @@
           "params": {
             "questionText": "解散権を持つのは？",
             "correctChoice": "内閣",
-            "choices": ["内閣", "裁判所", "天皇"]
+            "choices": [
+              "内閣",
+              "裁判所",
+              "天皇"
+            ]
           }
         }
       ]
@@ -783,7 +1178,11 @@
     "id": "reel-010",
     "genre": "social",
     "subject": "公民・経済",
-    "tags": ["公民", "税金", "経済"],
+    "tags": [
+      "公民",
+      "税金",
+      "経済"
+    ],
     "question": "消費税が「間接税」と呼ばれる理由は？",
     "answer": "税金を負担する人と、国に納める人が違うから",
     "onePointMemo": "負担者（客）と納付者（店）がズレるのが間接税",
@@ -815,11 +1214,39 @@
           "params": {
             "conceptTitle": "税金の流れ",
             "elements": [
-              { "x": 50, "y": 70, "shape": "circle", "label": "客", "sublabel": "負担", "fill": "#f43f5e", "stroke": "#e11d48" },
-              { "x": 150, "y": 70, "shape": "rect", "label": "お店", "sublabel": "納付", "fill": "#8b5cf6", "stroke": "#7c3aed" }
+              {
+                "x": 50,
+                "y": 70,
+                "shape": "circle",
+                "label": "客",
+                "sublabel": "負担",
+                "fill": "#f43f5e",
+                "stroke": "#e11d48"
+              },
+              {
+                "x": 150,
+                "y": 70,
+                "shape": "rect",
+                "label": "お店",
+                "sublabel": "納付",
+                "fill": "#8b5cf6",
+                "stroke": "#7c3aed"
+              }
             ],
             "connectors": [
-              { "from": [50, 70], "to": [150, 70], "style": "laser", "color": "#f9a8d4", "label": "預ける" }
+              {
+                "from": [
+                  50,
+                  70
+                ],
+                "to": [
+                  150,
+                  70
+                ],
+                "style": "laser",
+                "color": "#f9a8d4",
+                "label": "預ける"
+              }
             ]
           }
         },
@@ -831,7 +1258,11 @@
           "emphasisWord": "ズレる",
           "params": {
             "flowName": "間接税ルート",
-            "nodes": ["消費者", "事業者", "税務署"]
+            "nodes": [
+              "消費者",
+              "事業者",
+              "税務署"
+            ]
           }
         },
         {
@@ -843,23 +1274,25 @@
           "params": {
             "questionText": "国に納める人は？",
             "correctChoice": "事業者(お店)",
-            "choices": ["事業者(お店)", "消費者", "市役所"]
+            "choices": [
+              "事業者(お店)",
+              "消費者",
+              "市役所"
+            ]
           }
         }
       ]
     }
-  }
-]
-      ]
-    }
-  }
-]
-[
+  },
   {
     "id": "reel-011",
     "genre": "english",
     "subject": "英語・関係代名詞",
-    "tags": ["高校英語", "文法", "関係代名詞"],
+    "tags": [
+      "高校英語",
+      "文法",
+      "関係代名詞"
+    ],
     "question": "関係代名詞「what」が which や who と決定的に違う点は？",
     "answer": "先行詞（名詞）を最初から飲み込んでいる",
     "onePointMemo": "whatは「the thing which」を丸呑みした箱！",
@@ -891,11 +1324,39 @@
           "params": {
             "conceptTitle": "whatの構造",
             "elements": [
-              { "x": 60, "y": 70, "shape": "rect", "label": "名詞", "sublabel": "thing", "fill": "#f43f5e", "stroke": "#e11d48" },
-              { "x": 260, "y": 70, "shape": "circle", "label": "関係詞", "sublabel": "which", "fill": "#3b82f6", "stroke": "#2563eb" }
+              {
+                "x": 60,
+                "y": 70,
+                "shape": "rect",
+                "label": "名詞",
+                "sublabel": "thing",
+                "fill": "#f43f5e",
+                "stroke": "#e11d48"
+              },
+              {
+                "x": 260,
+                "y": 70,
+                "shape": "circle",
+                "label": "関係詞",
+                "sublabel": "which",
+                "fill": "#3b82f6",
+                "stroke": "#2563eb"
+              }
             ],
             "connectors": [
-              { "from": [60, 70], "to": [260, 70], "style": "laser", "color": "#a855f7", "label": "融合" }
+              {
+                "from": [
+                  60,
+                  70
+                ],
+                "to": [
+                  260,
+                  70
+                ],
+                "style": "laser",
+                "color": "#a855f7",
+                "label": "融合"
+              }
             ]
           }
         },
@@ -908,8 +1369,14 @@
           "params": {
             "theme": "whatの分解",
             "parts": [
-              { "name": "中身１", "role": "名詞(事・物)" },
-              { "name": "中身２", "role": "関係代名詞" }
+              {
+                "name": "中身１",
+                "role": "名詞(事・物)"
+              },
+              {
+                "name": "中身２",
+                "role": "関係代名詞"
+              }
             ]
           }
         },
@@ -922,7 +1389,11 @@
           "params": {
             "questionText": "空欄に入るのは？",
             "correctChoice": "what",
-            "choices": ["what", "which", "that"]
+            "choices": [
+              "what",
+              "which",
+              "that"
+            ]
           }
         }
       ]
@@ -932,7 +1403,11 @@
     "id": "reel-012",
     "genre": "english",
     "subject": "英語・多義語",
-    "tags": ["英単語", "多義語", "共通テスト"],
+    "tags": [
+      "英単語",
+      "多義語",
+      "共通テスト"
+    ],
     "question": "charge（請求する/充電する/非難する）の根本的なコアイメージは？",
     "answer": "荷物をドサッと積む",
     "onePointMemo": "馬車に荷物を「積む・負わせる」がすべての語源！",
@@ -964,11 +1439,39 @@
           "params": {
             "conceptTitle": "積むイメージ",
             "elements": [
-              { "x": 100, "y": 50, "shape": "rect", "label": "荷物", "sublabel": "負担", "fill": "#8b5cf6", "stroke": "#7c3aed" },
-              { "x": 100, "y": 150, "shape": "rect", "label": "荷車", "sublabel": "対象", "fill": "#94a3b8", "stroke": "#64748b" }
+              {
+                "x": 100,
+                "y": 50,
+                "shape": "rect",
+                "label": "荷物",
+                "sublabel": "負担",
+                "fill": "#8b5cf6",
+                "stroke": "#7c3aed"
+              },
+              {
+                "x": 100,
+                "y": 150,
+                "shape": "rect",
+                "label": "荷車",
+                "sublabel": "対象",
+                "fill": "#94a3b8",
+                "stroke": "#64748b"
+              }
             ],
             "connectors": [
-              { "from": [100, 50], "to": [100, 150], "style": "laser", "color": "#d8b4fe", "label": "積む" }
+              {
+                "from": [
+                  100,
+                  50
+                ],
+                "to": [
+                  100,
+                  150
+                ],
+                "style": "laser",
+                "color": "#d8b4fe",
+                "label": "積む"
+              }
             ]
           }
         },
@@ -981,9 +1484,18 @@
           "params": {
             "theme": "積む対象",
             "parts": [
-              { "name": "お金", "role": "請求する" },
-              { "name": "電気", "role": "充電する" },
-              { "name": "責任", "role": "非難する" }
+              {
+                "name": "お金",
+                "role": "請求する"
+              },
+              {
+                "name": "電気",
+                "role": "充電する"
+              },
+              {
+                "name": "責任",
+                "role": "非難する"
+              }
             ]
           }
         },
@@ -996,7 +1508,11 @@
           "params": {
             "questionText": "殺人でcharge？",
             "correctChoice": "告発(非難)する",
-            "choices": ["告発(非難)する", "請求する", "充電する"]
+            "choices": [
+              "告発(非難)する",
+              "請求する",
+              "充電する"
+            ]
           }
         }
       ]
@@ -1006,7 +1522,11 @@
     "id": "reel-013",
     "genre": "history",
     "subject": "世界史・フランス革命",
-    "tags": ["世界史", "フランス革命", "市民革命"],
+    "tags": [
+      "世界史",
+      "フランス革命",
+      "市民革命"
+    ],
     "question": "フランス革命の口火を切ったバスティーユ牢獄襲撃。なぜ「牢獄」を狙った？",
     "answer": "そこに大量の火薬と武器があったから",
     "onePointMemo": "囚人救出はオマケ。本当の狙いは「火薬庫」！",
@@ -1038,11 +1558,39 @@
           "params": {
             "conceptTitle": "牢獄の正体",
             "elements": [
-              { "x": 80, "y": 70, "shape": "rect", "label": "牢獄", "sublabel": "表向き", "fill": "#374151", "stroke": "#1f2937" },
-              { "x": 260, "y": 70, "shape": "circle", "label": "火薬庫", "sublabel": "真の姿", "fill": "#ef4444", "stroke": "#b91c1c" }
+              {
+                "x": 80,
+                "y": 70,
+                "shape": "rect",
+                "label": "牢獄",
+                "sublabel": "表向き",
+                "fill": "#374151",
+                "stroke": "#1f2937"
+              },
+              {
+                "x": 260,
+                "y": 70,
+                "shape": "circle",
+                "label": "火薬庫",
+                "sublabel": "真の姿",
+                "fill": "#ef4444",
+                "stroke": "#b91c1c"
+              }
             ],
             "connectors": [
-              { "from": [80, 70], "to": [260, 70], "style": "laser", "color": "#fca5a5", "label": "正体" }
+              {
+                "from": [
+                  80,
+                  70
+                ],
+                "to": [
+                  260,
+                  70
+                ],
+                "style": "laser",
+                "color": "#fca5a5",
+                "label": "正体"
+              }
             ]
           }
         },
@@ -1054,7 +1602,12 @@
           "emphasisWord": "全土に拡大",
           "params": {
             "start": "国王軍集結",
-            "dominos": ["恐怖と反発", "武器庫襲撃", "火薬確保", "革命勃発"]
+            "dominos": [
+              "恐怖と反発",
+              "武器庫襲撃",
+              "火薬確保",
+              "革命勃発"
+            ]
           }
         },
         {
@@ -1066,7 +1619,11 @@
           "params": {
             "questionText": "襲撃された場所は？",
             "correctChoice": "バスティーユ牢獄",
-            "choices": ["バスティーユ牢獄", "ヴェルサイユ宮殿", "ルーヴル宮殿"]
+            "choices": [
+              "バスティーユ牢獄",
+              "ヴェルサイユ宮殿",
+              "ルーヴル宮殿"
+            ]
           }
         }
       ]
@@ -1076,7 +1633,11 @@
     "id": "reel-014",
     "genre": "history",
     "subject": "日本史・鎌倉時代",
-    "tags": ["日本史", "鎌倉幕府", "御成敗式目"],
+    "tags": [
+      "日本史",
+      "鎌倉幕府",
+      "御成敗式目"
+    ],
     "question": "北条泰時が「御成敗式目」を制定した最大の理由は？",
     "answer": "承久の乱後に増えた、西国の領地トラブルを解決するため",
     "onePointMemo": "西国ゲットで揉め事急増！武士のルールを明文化！",
@@ -1107,7 +1668,12 @@
           "emphasisWord": "揉めまくった",
           "params": {
             "start": "承久の乱",
-            "dominos": ["幕府が勝利", "西国を没収", "地頭を配置", "領地トラブル"]
+            "dominos": [
+              "幕府が勝利",
+              "西国を没収",
+              "地頭を配置",
+              "領地トラブル"
+            ]
           }
         },
         {
@@ -1130,7 +1696,11 @@
           "params": {
             "questionText": "式目のきっかけは？",
             "correctChoice": "承久の乱",
-            "choices": ["承久の乱", "保元の乱", "応仁の乱"]
+            "choices": [
+              "承久の乱",
+              "保元の乱",
+              "応仁の乱"
+            ]
           }
         }
       ]
@@ -1140,7 +1710,11 @@
     "id": "reel-015",
     "genre": "science",
     "subject": "生物・人体",
-    "tags": ["中学理科", "人体", "血液循環"],
+    "tags": [
+      "中学理科",
+      "人体",
+      "血液循環"
+    ],
     "question": "心臓から肺へ向かう「肺動脈」を流れているのは、動脈血？静脈血？",
     "answer": "静脈血（二酸化炭素が多い血）",
     "onePointMemo": "動脈/静脈＝管の名前。動脈血/静脈血＝中身の血！",
@@ -1182,7 +1756,11 @@
           "emphasisWord": "肺に向かう",
           "params": {
             "flowName": "血液ルート",
-            "nodes": ["心臓(右心室)", "肺動脈(静脈血)", "肺で浄化"]
+            "nodes": [
+              "心臓(右心室)",
+              "肺動脈(静脈血)",
+              "肺で浄化"
+            ]
           }
         },
         {
@@ -1194,7 +1772,11 @@
           "params": {
             "questionText": "肺静脈の中身は？",
             "correctChoice": "動脈血(酸素多)",
-            "choices": ["動脈血(酸素多)", "静脈血(CO2多)", "リンパ液"]
+            "choices": [
+              "動脈血(酸素多)",
+              "静脈血(CO2多)",
+              "リンパ液"
+            ]
           }
         }
       ]
@@ -1204,7 +1786,11 @@
     "id": "reel-016",
     "genre": "science",
     "subject": "物理・波動",
-    "tags": ["高校物理", "音波", "屈折"],
+    "tags": [
+      "高校物理",
+      "音波",
+      "屈折"
+    ],
     "question": "夜になると、昼間より遠くの音がよく聞こえる理由は？",
     "answer": "上空の気温が高く、音が地表に向かって屈折するから",
     "onePointMemo": "音は「気温が低い方（遅い方）」へ曲がる性質がある！",
@@ -1248,11 +1834,39 @@
           "params": {
             "conceptTitle": "音の経路",
             "elements": [
-              { "x": 50, "y": 20, "shape": "circle", "label": "上空", "sublabel": "高温・速", "fill": "#ef4444", "stroke": "#b91c1c" },
-              { "x": 250, "y": 120, "shape": "circle", "label": "地表", "sublabel": "低温・遅", "fill": "#3b82f6", "stroke": "#2563eb" }
+              {
+                "x": 50,
+                "y": 20,
+                "shape": "circle",
+                "label": "上空",
+                "sublabel": "高温・速",
+                "fill": "#ef4444",
+                "stroke": "#b91c1c"
+              },
+              {
+                "x": 250,
+                "y": 120,
+                "shape": "circle",
+                "label": "地表",
+                "sublabel": "低温・遅",
+                "fill": "#3b82f6",
+                "stroke": "#2563eb"
+              }
             ],
             "connectors": [
-              { "from": [50, 20], "to": [250, 120], "style": "laser", "color": "#a855f7", "label": "下へ屈折" }
+              {
+                "from": [
+                  50,
+                  20
+                ],
+                "to": [
+                  250,
+                  120
+                ],
+                "style": "laser",
+                "color": "#a855f7",
+                "label": "下へ屈折"
+              }
             ]
           }
         },
@@ -1265,7 +1879,11 @@
           "params": {
             "questionText": "気温が高いと音は？",
             "correctChoice": "速くなる",
-            "choices": ["速くなる", "遅くなる", "変わらない"]
+            "choices": [
+              "速くなる",
+              "遅くなる",
+              "変わらない"
+            ]
           }
         }
       ]
@@ -1275,7 +1893,11 @@
     "id": "reel-017",
     "genre": "math",
     "subject": "数学・平面図形",
-    "tags": ["中学数学", "図形", "公式の理屈"],
+    "tags": [
+      "中学数学",
+      "図形",
+      "公式の理屈"
+    ],
     "question": "円の面積が「半径 × 半径 × π」になる直感的な理由は？",
     "answer": "細かく切って並べ替えると「縦が半径、横が円周の半分」の長方形になるから",
     "onePointMemo": "ピザを無限に細かく切って互い違いに並べろ！",
@@ -1307,11 +1929,39 @@
           "params": {
             "conceptTitle": "円の解体",
             "elements": [
-              { "x": 50, "y": 70, "shape": "circle", "label": "円", "sublabel": "丸い", "fill": "#f59e0b", "stroke": "#d97706" },
-              { "x": 250, "y": 70, "shape": "rect", "label": "長方形", "sublabel": "並替", "fill": "#10b981", "stroke": "#059669" }
+              {
+                "x": 50,
+                "y": 70,
+                "shape": "circle",
+                "label": "円",
+                "sublabel": "丸い",
+                "fill": "#f59e0b",
+                "stroke": "#d97706"
+              },
+              {
+                "x": 250,
+                "y": 70,
+                "shape": "rect",
+                "label": "長方形",
+                "sublabel": "並替",
+                "fill": "#10b981",
+                "stroke": "#059669"
+              }
             ],
             "connectors": [
-              { "from": [50, 70], "to": [250, 70], "style": "laser", "color": "#64748b", "label": "無限分割" }
+              {
+                "from": [
+                  50,
+                  70
+                ],
+                "to": [
+                  250,
+                  70
+                ],
+                "style": "laser",
+                "color": "#64748b",
+                "label": "無限分割"
+              }
             ]
           }
         },
@@ -1324,8 +1974,14 @@
           "params": {
             "theme": "完成した長方形",
             "parts": [
-              { "name": "縦", "role": "半径 (r)" },
-              { "name": "横", "role": "円周の半分 (πr)" }
+              {
+                "name": "縦",
+                "role": "半径 (r)"
+              },
+              {
+                "name": "横",
+                "role": "円周の半分 (πr)"
+              }
             ]
           }
         },
@@ -1338,7 +1994,11 @@
           "params": {
             "questionText": "長方形の面積は？",
             "correctChoice": "半径×円周の半分",
-            "choices": ["半径×円周の半分", "直径×円周", "半径×直径"]
+            "choices": [
+              "半径×円周の半分",
+              "直径×円周",
+              "半径×直径"
+            ]
           }
         }
       ]
@@ -1348,7 +2008,11 @@
     "id": "reel-018",
     "genre": "math",
     "subject": "数学・二次関数",
-    "tags": ["高校数学", "二次関数", "グラフ"],
+    "tags": [
+      "高校数学",
+      "二次関数",
+      "グラフ"
+    ],
     "question": "放物線 y = a(x-p)² + q の頂点が (p, q) になる理由は？",
     "answer": "基本形 y = ax² を、x方向にp、y方向にqだけ平行移動したから",
     "onePointMemo": "カッコの中のマイナスは「右へpスライド」の合図！",
@@ -1380,11 +2044,39 @@
           "params": {
             "conceptTitle": "グラフ移動",
             "elements": [
-              { "x": 60, "y": 140, "shape": "circle", "label": "原点", "sublabel": "(0,0)", "fill": "#6366f1", "stroke": "#4f46e5" },
-              { "x": 260, "y": 40, "shape": "rect", "label": "頂点", "sublabel": "(p,q)", "fill": "#ec4899", "stroke": "#db2777" }
+              {
+                "x": 60,
+                "y": 140,
+                "shape": "circle",
+                "label": "原点",
+                "sublabel": "(0,0)",
+                "fill": "#6366f1",
+                "stroke": "#4f46e5"
+              },
+              {
+                "x": 260,
+                "y": 40,
+                "shape": "rect",
+                "label": "頂点",
+                "sublabel": "(p,q)",
+                "fill": "#ec4899",
+                "stroke": "#db2777"
+              }
             ],
             "connectors": [
-              { "from": [60, 140], "to": [260, 40], "style": "laser", "color": "#a8a29e", "label": "平行移動" }
+              {
+                "from": [
+                  60,
+                  140
+                ],
+                "to": [
+                  260,
+                  40
+                ],
+                "style": "laser",
+                "color": "#a8a29e",
+                "label": "平行移動"
+              }
             ]
           }
         },
@@ -1408,7 +2100,11 @@
           "params": {
             "questionText": "頂点の座標は？",
             "correctChoice": "(-3, 5)",
-            "choices": ["(-3, 5)", "(3, 5)", "(3, -5)"]
+            "choices": [
+              "(-3, 5)",
+              "(3, 5)",
+              "(3, -5)"
+            ]
           }
         }
       ]
@@ -1418,7 +2114,11 @@
     "id": "reel-019",
     "genre": "social",
     "subject": "公民・金融",
-    "tags": ["公民", "経済", "日本銀行"],
+    "tags": [
+      "公民",
+      "経済",
+      "日本銀行"
+    ],
     "question": "日本銀行が「銀行の銀行」と呼ばれる理由は？",
     "answer": "個人や一般企業とは取引せず、市中銀行とだけお金の貸し借りを行うから",
     "onePointMemo": "俺たちは日銀に口座を作れない！相手は銀行だけ！",
@@ -1449,7 +2149,11 @@
           "emphasisWord": "市中銀行だけ",
           "params": {
             "flowName": "資金ルート",
-            "nodes": ["日本銀行", "市中銀行", "一般国民"]
+            "nodes": [
+              "日本銀行",
+              "市中銀行",
+              "一般国民"
+            ]
           }
         },
         {
@@ -1461,9 +2165,18 @@
           "params": {
             "theme": "日銀の役割",
             "parts": [
-              { "name": "銀行の銀行", "role": "銀行と取引" },
-              { "name": "政府の銀行", "role": "国の資金管理" },
-              { "name": "発券銀行", "role": "お札を発行" }
+              {
+                "name": "銀行の銀行",
+                "role": "銀行と取引"
+              },
+              {
+                "name": "政府の銀行",
+                "role": "国の資金管理"
+              },
+              {
+                "name": "発券銀行",
+                "role": "お札を発行"
+              }
             ]
           }
         },
@@ -1476,7 +2189,11 @@
           "params": {
             "questionText": "お札を発行する役割？",
             "correctChoice": "発券銀行",
-            "choices": ["発券銀行", "政府の銀行", "銀行の銀行"]
+            "choices": [
+              "発券銀行",
+              "政府の銀行",
+              "銀行の銀行"
+            ]
           }
         }
       ]
@@ -1486,7 +2203,11 @@
     "id": "reel-020",
     "genre": "social",
     "subject": "公民・選挙制度",
-    "tags": ["公民", "政治", "選挙"],
+    "tags": [
+      "公民",
+      "政治",
+      "選挙"
+    ],
     "question": "衆議院の「小選挙区制」が持つ、最大の政治的メリット（狙い）は？",
     "answer": "大政党が有利になり、政権交代が起きやすくなること",
     "onePointMemo": "死票が多い代わりに、ダイナミックに政権が変わる！",
@@ -1518,11 +2239,39 @@
           "params": {
             "conceptTitle": "集約の力",
             "elements": [
-              { "x": 50, "y": 30, "shape": "circle", "label": "小党群", "sublabel": "乱立", "fill": "#94a3b8", "stroke": "#64748b" },
-              { "x": 250, "y": 80, "shape": "rect", "label": "二大党", "sublabel": "集約", "fill": "#eab308", "stroke": "#ca8a04" }
+              {
+                "x": 50,
+                "y": 30,
+                "shape": "circle",
+                "label": "小党群",
+                "sublabel": "乱立",
+                "fill": "#94a3b8",
+                "stroke": "#64748b"
+              },
+              {
+                "x": 250,
+                "y": 80,
+                "shape": "rect",
+                "label": "二大党",
+                "sublabel": "集約",
+                "fill": "#eab308",
+                "stroke": "#ca8a04"
+              }
             ],
             "connectors": [
-              { "from": [50, 30], "to": [250, 80], "style": "laser", "color": "#cbd5e1", "label": "吸収" }
+              {
+                "from": [
+                  50,
+                  30
+                ],
+                "to": [
+                  250,
+                  80
+                ],
+                "style": "laser",
+                "color": "#cbd5e1",
+                "label": "吸収"
+              }
             ]
           }
         },
@@ -1546,7 +2295,11 @@
           "params": {
             "questionText": "議席にならない票は？",
             "correctChoice": "死票",
-            "choices": ["死票", "浮動票", "白票"]
+            "choices": [
+              "死票",
+              "浮動票",
+              "白票"
+            ]
           }
         }
       ]
