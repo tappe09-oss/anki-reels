@@ -108,7 +108,7 @@
           "narration": "1185年に守護・地頭を全国に配置し、実質的な警察権と徴税権を握ったからです！",
           "emphasisWord": "守護・地頭",
           "params": {
-            "conceptTitle": "幕府成立の要”,
+            "conceptTitle": "幕府成立の要",
             "elements": [
               { "x": 80, "y": 70, "shape": "circle", "label": "守護地頭", "sublabel": "1185年", "fill": "#b45309", "stroke": "#fde047" },
               { "x": 260, "y": 70, "shape": "rect", "label": "全国支配", "sublabel": "実質成立", "fill": "#047857", "stroke": "#34d399" }
