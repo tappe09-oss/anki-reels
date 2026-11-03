@@ -146,6 +146,710 @@
             "choices": ["1185年", "1192年", "1160年"]
           }
         }
+        [
+  {
+    "id": "reel-001",
+    "genre": "english",
+    "subject": "英語・前置詞",
+    "tags": ["高校英語", "前置詞", "共通テスト"],
+    "question": "「壁にハエが止まっている」ときの正しい前置詞は？",
+    "answer": "on",
+    "onePointMemo": "on＝「〜の上に」ではなく「接触」",
+    "persona": "witty_senior",
+    "hook_type": "counter_intuition",
+    "visual_skin": "pop_pastel",
+    "bgm_genre": "trap_energy",
+    "explanation": {
+      "title": "onの本質",
+      "summaryPoint": "面への接触がすべて",
+      "scenes": [
+        {
+          "speaker": "male",
+          "type": "text_strike",
+          "subtitle": "上＝onはウソ",
+          "narration": "オンを「上」って暗記してない？実は壁でも天井でもオンなんだ！",
+          "emphasisWord": "上じゃない",
+          "params": {
+            "wrongText": "上にある",
+            "correctText": "接触する"
+          }
+        },
+        {
+          "speaker": "female",
+          "type": "dynamic_metaphor",
+          "subtitle": "核は「接触」",
+          "narration": "onの本当のイメージは、ピタッと面にくっつく「接触」！",
+          "emphasisWord": "接触",
+          "params": {
+            "conceptTitle": "onの空間認識",
+            "elements": [
+              { "x": 80, "y": 150, "shape": "rect", "label": "壁", "sublabel": "垂直面", "fill": "#94a3b8", "stroke": "#64748b" },
+              { "x": 120, "y": 150, "shape": "circle", "label": "ハエ", "sublabel": "付着", "fill": "#10b981", "stroke": "#059669" }
+            ],
+            "connectors": [
+              { "from": [120, 150], "to": [80, 150], "style": "laser", "color": "#10b981", "label": "接触" }
+            ]
+          }
+        },
+        {
+          "speaker": "male",
+          "type": "vs_split",
+          "subtitle": "空間と面の違い",
+          "narration": "空間的に上にあるaboveと、面に触れているonを明確に分けよう！",
+          "emphasisWord": "触れているか",
+          "params": {
+            "leftItem": "above(空間の上)",
+            "rightItem": "on(面に接触)"
+          }
+        },
+        {
+          "speaker": "female",
+          "type": "quiz_choice",
+          "subtitle": "【一撃】確認クイズ！",
+          "narration": "天井にハエが止まっている。前置詞はどっち？",
+          "emphasisWord": "on",
+          "params": {
+            "questionText": "天井にいるハエは？",
+            "correctChoice": "on",
+            "choices": ["on", "above", "in"]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "reel-002",
+    "genre": "english",
+    "subject": "英語・多義語",
+    "tags": ["英単語", "語源", "長文読解"],
+    "question": "「in this respect」の意味は？",
+    "answer": "この点において",
+    "onePointMemo": "re(再び)＋spect(見る)＝何度も見る点",
+    "persona": "cool_analyst",
+    "hook_type": "puzzle_etymology",
+    "visual_skin": "cyber_neon",
+    "bgm_genre": "lofi_focus",
+    "explanation": {
+      "title": "respect解剖",
+      "summaryPoint": "何度も振り返る",
+      "scenes": [
+        {
+          "speaker": "female",
+          "type": "text_strike",
+          "subtitle": "尊敬だけ！？",
+          "narration": "リスペクトを「尊敬」だけで覚えてたら、長文で確実に死にます！",
+          "emphasisWord": "尊敬だけじゃない",
+          "params": {
+            "wrongText": "尊敬のみ",
+            "correctText": "点・観点"
+          }
+        },
+        {
+          "speaker": "male",
+          "type": "dynamic_metaphor",
+          "subtitle": "語源で一発",
+          "narration": "reは「再び」、spectは「見る」。何度も振り返って見るのが原義。",
+          "emphasisWord": "振り返る",
+          "params": {
+            "conceptTitle": "語源の結合",
+            "elements": [
+              { "x": 60, "y": 70, "shape": "circle", "label": "再び", "sublabel": "re", "fill": "#3b82f6", "stroke": "#2563eb" },
+              { "x": 260, "y": 70, "shape": "rect", "label": "見る", "sublabel": "spect", "fill": "#f59e0b", "stroke": "#d97706" }
+            ],
+            "connectors": [
+              { "from": [60, 70], "to": [260, 70], "style": "laser", "color": "#fbbf24", "label": "合体" }
+            ]
+          }
+        },
+        {
+          "speaker": "female",
+          "type": "blueprint_deconstruct",
+          "subtitle": "２つの意味へ",
+          "narration": "何度も見る相手だから「尊敬」。何度も見る部分だから「観点」になる！",
+          "emphasisWord": "観点",
+          "params": {
+            "theme": "respectの派生",
+            "parts": [
+              { "name": "人へ", "role": "尊敬・敬意" },
+              { "name": "物事へ", "role": "点・観点" }
+            ]
+          }
+        },
+        {
+          "speaker": "male",
+          "type": "quiz_choice",
+          "subtitle": "【一撃】確認クイズ！",
+          "narration": "in this respectの正しい訳はどれ？一瞬で答えて！",
+          "emphasisWord": "この点において",
+          "params": {
+            "questionText": "in this respect？",
+            "correctChoice": "この点において",
+            "choices": ["この点において", "この尊敬の中で", "再び見るために"]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "reel-003",
+    "genre": "history",
+    "subject": "日本史・江戸時代",
+    "tags": ["中学歴史", "江戸幕府", "外交"],
+    "question": "鎖国中の日本で、幕府が公認していた「４つの窓口」のうちオランダとの窓口は？",
+    "answer": "長崎",
+    "onePointMemo": "完全な孤立ではなく、幕府が貿易を独占管理！",
+    "persona": "storyteller",
+    "hook_type": "mystery_unveil",
+    "visual_skin": "historic_gold",
+    "bgm_genre": "epic_orchestra",
+    "explanation": {
+      "title": "鎖国の真実",
+      "summaryPoint": "幕府の独占管理",
+      "scenes": [
+        {
+          "speaker": "male",
+          "type": "text_strike",
+          "subtitle": "完全孤立は嘘",
+          "narration": "鎖国中、日本は世界から完全に孤立していた？いや、実はガッツリ繋がってます！",
+          "emphasisWord": "完全孤立",
+          "params": {
+            "wrongText": "完全な孤立",
+            "correctText": "４つの窓口"
+          }
+        },
+        {
+          "speaker": "female",
+          "type": "flow_steps",
+          "subtitle": "幕府が独占",
+          "narration": "鎖国の本当の目的は、幕府が貿易の利益と情報を独占すること！",
+          "emphasisWord": "貿易の独占",
+          "params": {
+            "flowName": "幕府の管理網",
+            "nodes": ["長崎", "対馬", "薩摩", "松前"]
+          }
+        },
+        {
+          "speaker": "male",
+          "type": "blueprint_deconstruct",
+          "subtitle": "４つの窓口",
+          "narration": "オランダ・清は長崎、朝鮮は対馬、琉球は薩摩、アイヌは松前で管理したんだ。",
+          "emphasisWord": "窓口の分担",
+          "params": {
+            "theme": "四つの口",
+            "parts": [
+              { "name": "長崎", "role": "蘭・清" },
+              { "name": "対馬", "role": "朝鮮" },
+              { "name": "薩摩", "role": "琉球" },
+              { "name": "松前", "role": "アイヌ" }
+            ]
+          }
+        },
+        {
+          "speaker": "female",
+          "type": "quiz_choice",
+          "subtitle": "【一撃】確認クイズ！",
+          "narration": "オランダや清と貿易を行っていた窓口はどこ？",
+          "emphasisWord": "長崎",
+          "params": {
+            "questionText": "蘭・清との窓口は？",
+            "correctChoice": "長崎",
+            "choices": ["長崎", "対馬", "薩摩"]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "reel-004",
+    "genre": "history",
+    "subject": "世界史・第一次世界大戦",
+    "tags": ["世界史", "WW1", "帝国主義"],
+    "question": "第一次世界大戦を世界規模に拡大させた根本的なシステムは？",
+    "answer": "同盟の連鎖",
+    "onePointMemo": "一つの暗殺が、秘密同盟のドミノ倒しを起動した",
+    "persona": "cool_analyst",
+    "hook_type": "bottom_line_fast",
+    "visual_skin": "minimal_mono",
+    "bgm_genre": "trap_energy",
+    "explanation": {
+      "title": "大戦の引金",
+      "summaryPoint": "同盟の自動連鎖",
+      "scenes": [
+        {
+          "speaker": "male",
+          "type": "text_strike",
+          "subtitle": "暗殺だけ！？",
+          "narration": "サラエボ事件の暗殺だけで世界大戦になった？いいえ、本当の犯人はシステムです！",
+          "emphasisWord": "システムが犯人",
+          "params": {
+            "wrongText": "暗殺が原因",
+            "correctText": "同盟の連鎖"
+          }
+        },
+        {
+          "speaker": "female",
+          "type": "dynamic_metaphor",
+          "subtitle": "最悪の自動化",
+          "narration": "各国が結んでいた軍事同盟により、一国の戦争が全欧州を自動的に巻き込んだんだ。",
+          "emphasisWord": "自動的に巻き込む",
+          "params": {
+            "conceptTitle": "同盟ネットワーク",
+            "elements": [
+              { "x": 50, "y": 70, "shape": "circle", "label": "セルビア", "sublabel": "露と協調", "fill": "#dc2626", "stroke": "#b91c1c" },
+              { "x": 250, "y": 70, "shape": "circle", "label": "オーストリア", "sublabel": "独と同盟", "fill": "#2563eb", "stroke": "#1d4ed8" }
+            ],
+            "connectors": [
+              { "from": [50, 70], "to": [250, 70], "style": "laser", "color": "#9ca3af", "label": "対立" }
+            ]
+          }
+        },
+        {
+          "speaker": "male",
+          "type": "domino_timeline",
+          "subtitle": "ドミノ倒し",
+          "narration": "オーストリアの宣戦布告を皮切りに、ロシア、ドイツ、フランスが次々と自動参戦！",
+          "emphasisWord": "次々と参戦",
+          "params": {
+            "start": "サラエボ事件",
+            "dominos": ["墺が宣戦", "露が動員", "独が宣戦", "英仏参戦"]
+          }
+        },
+        {
+          "speaker": "female",
+          "type": "quiz_choice",
+          "subtitle": "【一撃】確認クイズ！",
+          "narration": "第一次世界大戦を引き起こした最初の事件の名前は？",
+          "emphasisWord": "サラエボ事件",
+          "params": {
+            "questionText": "大戦の引き金は？",
+            "correctChoice": "サラエボ事件",
+            "choices": ["サラエボ事件", "ファショダ事件", "アガディール事件"]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "reel-005",
+    "genre": "science",
+    "subject": "化学・酸化還元",
+    "tags": ["高校化学", "酸化還元", "共通テスト"],
+    "question": "化学反応において「酸化された」という言葉の、最も広く使える定義は？",
+    "answer": "電子を失う",
+    "onePointMemo": "酸素は忘れて！電子を奪われるのが「酸化」",
+    "persona": "hot_coach",
+    "hook_type": "counter_intuition",
+    "visual_skin": "cyber_neon",
+    "bgm_genre": "trap_energy",
+    "explanation": {
+      "title": "酸化の正体",
+      "summaryPoint": "電子を奪われる",
+      "scenes": [
+        {
+          "speaker": "male",
+          "type": "text_strike",
+          "subtitle": "酸素は忘れろ",
+          "narration": "酸化＝酸素がくっつく事だと思ってる？高校化学ではその定義はもう捨てろ！",
+          "emphasisWord": "捨てろ",
+          "params": {
+            "wrongText": "酸素がつく",
+            "correctText": "電子を失う"
+          }
+        },
+        {
+          "speaker": "female",
+          "type": "dynamic_metaphor",
+          "subtitle": "電子の奪い合い",
+          "narration": "酸化還元の本質は電子の奪い合い！電子を奪われて失うことこそが酸化の真の姿だ！",
+          "emphasisWord": "電子を奪われる",
+          "params": {
+            "conceptTitle": "電子の移動",
+            "elements": [
+              { "x": 80, "y": 70, "shape": "circle", "label": "原子", "sublabel": "物質", "fill": "#4f46e5", "stroke": "#4338ca" },
+              { "x": 260, "y": 70, "shape": "circle", "label": "電子", "sublabel": "マイナス", "fill": "#eab308", "stroke": "#ca8a04" }
+            ],
+            "connectors": [
+              { "from": [80, 70], "to": [260, 70], "style": "laser", "color": "#facc15", "label": "放出" }
+            ]
+          }
+        },
+        {
+          "speaker": "male",
+          "type": "vs_split",
+          "subtitle": "狭いvs広い",
+          "narration": "酸素の結合はごく一部の現象。電子を失うという定義なら全ての反応に使える！",
+          "emphasisWord": "全ての反応",
+          "params": {
+            "leftItem": "酸素結合(狭い)",
+            "rightItem": "電子放出(広い)"
+          }
+        },
+        {
+          "speaker": "female",
+          "type": "quiz_choice",
+          "subtitle": "【一撃】確認クイズ！",
+          "narration": "物質が酸化される時、電子はどうなる？即答せよ！",
+          "emphasisWord": "失う",
+          "params": {
+            "questionText": "酸化されるとき？",
+            "correctChoice": "電子を失う",
+            "choices": ["電子を失う", "電子を受け取る", "変化しない"]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "reel-006",
+    "genre": "science",
+    "subject": "物理・力学",
+    "tags": ["中学理科", "物理", "力学"],
+    "question": "「つり合いの力」と「作用・反作用の力」の決定的な違いは？",
+    "answer": "はたらく物体が1つか2つか",
+    "onePointMemo": "つり合いは1物体、作用反作用は2物体間！",
+    "persona": "cool_analyst",
+    "hook_type": "puzzle_etymology",
+    "visual_skin": "pop_pastel",
+    "bgm_genre": "lofi_focus",
+    "explanation": {
+      "title": "力の見極め",
+      "summaryPoint": "対象の数が違う",
+      "scenes": [
+        {
+          "speaker": "female",
+          "type": "text_strike",
+          "subtitle": "同じじゃない",
+          "narration": "逆向きで同じ大きさの力。つり合いも作用反作用も同じだと思ってない？大間違い！",
+          "emphasisWord": "大間違い",
+          "params": {
+            "wrongText": "全く同じ",
+            "correctText": "対象が違う"
+          }
+        },
+        {
+          "speaker": "male",
+          "type": "dynamic_metaphor",
+          "subtitle": "矢印の根本を見よ",
+          "narration": "注目すべきは力の働く対象。つまり、矢印の根本がどこにあるかを見極めるんだ！",
+          "emphasisWord": "矢印の根本",
+          "params": {
+            "conceptTitle": "力の作用点",
+            "elements": [
+              { "x": 100, "y": 50, "shape": "rect", "label": "物体A", "sublabel": "", "fill": "#ec4899", "stroke": "#db2777" },
+              { "x": 200, "y": 150, "shape": "rect", "label": "物体B", "sublabel": "", "fill": "#06b6d4", "stroke": "#0891b2" }
+            ],
+            "connectors": [
+              { "from": [100, 50], "to": [200, 150], "style": "laser", "color": "#f43f5e", "label": "相互" }
+            ]
+          }
+        },
+        {
+          "speaker": "female",
+          "type": "vs_split",
+          "subtitle": "1つか2つか",
+          "narration": "1つの物体を両側から引っ張るのがつり合い。2つの物体が押し合うのが作用反作用だ！",
+          "emphasisWord": "押し合う",
+          "params": {
+            "leftItem": "つり合い(1物体)",
+            "rightItem": "作用反作用(2物体)"
+          }
+        },
+        {
+          "speaker": "male",
+          "type": "quiz_choice",
+          "subtitle": "【一撃】確認クイズ！",
+          "narration": "壁を押した時、壁から押し返される力はどっち？",
+          "emphasisWord": "作用反作用",
+          "params": {
+            "questionText": "壁から受ける力は？",
+            "correctChoice": "作用反作用",
+            "choices": ["作用反作用", "力のつり合い", "摩擦力"]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "reel-007",
+    "genre": "math",
+    "subject": "数学・正負の数",
+    "tags": ["中学数学", "マイナス", "直感理解"],
+    "question": "マイナス × マイナス がプラスになる直感的な理由は？",
+    "answer": "数直線上で180度反転するから",
+    "onePointMemo": "マイナスを掛ける＝数直線上で「くるっと反転」",
+    "persona": "witty_senior",
+    "hook_type": "mystery_unveil",
+    "visual_skin": "minimal_mono",
+    "bgm_genre": "lofi_focus",
+    "explanation": {
+      "title": "負の掛け算",
+      "summaryPoint": "180度の反転",
+      "scenes": [
+        {
+          "speaker": "male",
+          "type": "text_strike",
+          "subtitle": "暗記はヤメロ",
+          "narration": "マイナスかけるマイナスはプラス。ただのルールだと諦めてない？理由があるんです！",
+          "emphasisWord": "理由がある",
+          "params": {
+            "wrongText": "単なる暗記",
+            "correctText": "180度回転"
+          }
+        },
+        {
+          "speaker": "female",
+          "type": "turning_point_curve",
+          "subtitle": "掛け算は拡大",
+          "narration": "正の数を掛けるのは長さの拡大。でも負の数を掛けると、向きが反対になるんだ！",
+          "emphasisWord": "向きが反対",
+          "params": {
+            "xLabel": "数直線",
+            "yLabel": "反転",
+            "inflection": "原点で180度回転"
+          }
+        },
+        {
+          "speaker": "male",
+          "type": "dynamic_metaphor",
+          "subtitle": "２回反転で元通り",
+          "narration": "右向きの矢印を、1回反転で左向きのマイナスに。もう1回反転すると右向きのプラスに戻る！",
+          "emphasisWord": "元に戻る",
+          "params": {
+            "conceptTitle": "反転の連続",
+            "elements": [
+              { "x": 50, "y": 100, "shape": "circle", "label": "右", "sublabel": "+", "fill": "#ef4444", "stroke": "#b91c1c" },
+              { "x": 250, "y": 100, "shape": "circle", "label": "右", "sublabel": "+", "fill": "#ef4444", "stroke": "#b91c1c" }
+            ],
+            "connectors": [
+              { "from": [50, 100], "to": [150, 50], "style": "laser", "color": "#64748b", "label": "反転1" },
+              { "from": [150, 50], "to": [250, 100], "style": "laser", "color": "#64748b", "label": "反転2" }
+            ]
+          }
+        },
+        {
+          "speaker": "female",
+          "type": "quiz_choice",
+          "subtitle": "【一撃】確認クイズ！",
+          "narration": "マイナスの掛け算が意味する図形的な操作は？",
+          "emphasisWord": "180度回転",
+          "params": {
+            "questionText": "負を掛ける操作は？",
+            "correctChoice": "180度反転",
+            "choices": ["180度反転", "90度回転", "平行移動"]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "reel-008",
+    "genre": "math",
+    "subject": "数学・順列と組合せ",
+    "tags": ["高校数学", "確率", "順列組合せ"],
+    "question": "順列(P)と組合せ(C)を使い分ける絶対的な基準は？",
+    "answer": "選んだ後の「順番」を区別するかどうか",
+    "onePointMemo": "Pは「並べる」まで、Cは「選ぶ」だけ！",
+    "persona": "hot_coach",
+    "hook_type": "bottom_line_fast",
+    "visual_skin": "pop_pastel",
+    "bgm_genre": "trap_energy",
+    "explanation": {
+      "title": "PとCの壁",
+      "summaryPoint": "順番の有無",
+      "scenes": [
+        {
+          "speaker": "male",
+          "type": "text_strike",
+          "subtitle": "迷うな即決！",
+          "narration": "PとCどっちを使うか毎回迷ってる？見分ける基準はたった1つしかない！",
+          "emphasisWord": "たった1つ",
+          "params": {
+            "wrongText": "適当に選ぶ",
+            "correctText": "順番の有無"
+          }
+        },
+        {
+          "speaker": "female",
+          "type": "vs_split",
+          "subtitle": "並べるvs選ぶ",
+          "narration": "ABとBAを別のものとしてカウントするのがP。同じものとして扱うのがCだ！",
+          "emphasisWord": "別のもの",
+          "params": {
+            "leftItem": "順番区別(P)",
+            "rightItem": "区別なし(C)"
+          }
+        },
+        {
+          "speaker": "male",
+          "type": "dynamic_metaphor",
+          "subtitle": "委員長か平委員か",
+          "narration": "委員長と副委員長を選ぶなら役割に順番があるからP。平の委員を2人ならCを使う！",
+          "emphasisWord": "役割の違い",
+          "params": {
+            "conceptTitle": "役割の有無",
+            "elements": [
+              { "x": 100, "y": 70, "shape": "rect", "label": "役職P", "sublabel": "順列", "fill": "#8b5cf6", "stroke": "#7c3aed" },
+              { "x": 200, "y": 70, "shape": "circle", "label": "平組C", "sublabel": "組合せ", "fill": "#14b8a6", "stroke": "#0d9488" }
+            ],
+            "connectors": [
+              { "from": [100, 70], "to": [200, 70], "style": "laser", "color": "#cbd5e1", "label": "比較" }
+            ]
+          }
+        },
+        {
+          "speaker": "female",
+          "type": "quiz_choice",
+          "subtitle": "【一撃】確認クイズ！",
+          "narration": "5人からリレー選手を3人選んで走る順番を決める。どっち？",
+          "emphasisWord": "P",
+          "params": {
+            "questionText": "走る順番を決める？",
+            "correctChoice": "順列(P)",
+            "choices": ["順列(P)", "組合せ(C)", "階乗(!)"]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "reel-009",
+    "genre": "social",
+    "subject": "公民・三権分立",
+    "tags": ["中学公民", "政治", "憲法"],
+    "question": "三権分立の真の目的は、権力を分けることではなく何？",
+    "answer": "互いに抑制と均衡を保つこと（チェック＆バランス）",
+    "onePointMemo": "独立ではなく、お互いに監視し合う仕組み！",
+    "persona": "storyteller",
+    "hook_type": "mystery_unveil",
+    "visual_skin": "historic_gold",
+    "bgm_genre": "epic_orchestra",
+    "explanation": {
+      "title": "三権の真意",
+      "summaryPoint": "抑制と均衡",
+      "scenes": [
+        {
+          "speaker": "male",
+          "type": "text_strike",
+          "subtitle": "独立はウソ",
+          "narration": "三権分立は、３つの機関が干渉せず独立すること？違います、ガッツリ干渉します！",
+          "emphasisWord": "ガッツリ干渉",
+          "params": {
+            "wrongText": "完全に独立",
+            "correctText": "抑制と均衡"
+          }
+        },
+        {
+          "speaker": "female",
+          "type": "flow_steps",
+          "subtitle": "互いに監視",
+          "narration": "真の目的は『抑制と均衡』。独裁を防ぐため、互いの暴走を監視し止めるシステムなんだ。",
+          "emphasisWord": "監視し止める",
+          "params": {
+            "flowName": "監視の三角形",
+            "nodes": ["国会", "内閣", "裁判所"]
+          }
+        },
+        {
+          "speaker": "male",
+          "type": "blueprint_deconstruct",
+          "subtitle": "刺し合う権力",
+          "narration": "国会は内閣を不信任でき、内閣は国会を解散できる。これがチェックアンドバランス！",
+          "emphasisWord": "チェック",
+          "params": {
+            "theme": "権力の牽制",
+            "parts": [
+              { "name": "不信任案", "role": "国会→内閣" },
+              { "name": "解散権", "role": "内閣→国会" },
+              { "name": "違憲審査", "role": "司法の監視" }
+            ]
+          }
+        },
+        {
+          "speaker": "female",
+          "type": "quiz_choice",
+          "subtitle": "【一撃】確認クイズ！",
+          "narration": "衆議院の解散権を持っている機関はどこ？",
+          "emphasisWord": "内閣",
+          "params": {
+            "questionText": "解散権を持つのは？",
+            "correctChoice": "内閣",
+            "choices": ["内閣", "裁判所", "天皇"]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "reel-010",
+    "genre": "social",
+    "subject": "公民・経済",
+    "tags": ["公民", "税金", "経済"],
+    "question": "消費税が「間接税」と呼ばれる理由は？",
+    "answer": "税金を負担する人と、国に納める人が違うから",
+    "onePointMemo": "負担者（客）と納付者（店）がズレるのが間接税",
+    "persona": "cool_analyst",
+    "hook_type": "puzzle_etymology",
+    "visual_skin": "cyber_neon",
+    "bgm_genre": "lofi_focus",
+    "explanation": {
+      "title": "間接税の罠",
+      "summaryPoint": "負担者と納付者",
+      "scenes": [
+        {
+          "speaker": "female",
+          "type": "text_strike",
+          "subtitle": "直接払ってない",
+          "narration": "買い物で消費税を払ってるから直接税？いいえ、あなたが国に払っているわけじゃありません！",
+          "emphasisWord": "国には払ってない",
+          "params": {
+            "wrongText": "直接税",
+            "correctText": "間接税"
+          }
+        },
+        {
+          "speaker": "male",
+          "type": "dynamic_metaphor",
+          "subtitle": "バケツリレー",
+          "narration": "あなたはお店に税を預けるだけ。お店がまとめて国に納めるから『間接』税なんだ！",
+          "emphasisWord": "預けるだけ",
+          "params": {
+            "conceptTitle": "税金の流れ",
+            "elements": [
+              { "x": 50, "y": 70, "shape": "circle", "label": "客", "sublabel": "負担", "fill": "#f43f5e", "stroke": "#e11d48" },
+              { "x": 150, "y": 70, "shape": "rect", "label": "お店", "sublabel": "納付", "fill": "#8b5cf6", "stroke": "#7c3aed" }
+            ],
+            "connectors": [
+              { "from": [50, 70], "to": [150, 70], "style": "laser", "color": "#f9a8d4", "label": "預ける" }
+            ]
+          }
+        },
+        {
+          "speaker": "female",
+          "type": "flow_steps",
+          "subtitle": "負担と納付のズレ",
+          "narration": "所得税は稼いだ人が直接納める直接税。消費税は負担者と納付者が違う間接税。覚えよう！",
+          "emphasisWord": "ズレる",
+          "params": {
+            "flowName": "間接税ルート",
+            "nodes": ["消費者", "事業者", "税務署"]
+          }
+        },
+        {
+          "speaker": "male",
+          "type": "quiz_choice",
+          "subtitle": "【一撃】確認クイズ！",
+          "narration": "消費税において、実際に国へ税金を納めるのは誰？",
+          "emphasisWord": "事業者",
+          "params": {
+            "questionText": "国に納める人は？",
+            "correctChoice": "事業者(お店)",
+            "choices": ["事業者(お店)", "消費者", "市役所"]
+          }
+        }
+      ]
+    }
+  }
+]
       ]
     }
   }
